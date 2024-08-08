@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hello-forum-gateway-user" />
+        <module name="hello-forum-service-search" />
+        <module name="hello-forum-service-schedule" />
+        <module name="hello-forum-common" />
+        <module name="hello-forum-service-post" />
+        <module name="xxljob-demo" />
+        <module name="hello-forum-service-behavior" />
+        <module name="es-init" />
+        <module name="hello-forum-service-comment" />
+        <module name="hello-forum-file-starter" />
+        <module name="hello-forum-service-studio" />
+        <module name="hello-forum-feign-api" />
+        <module name="hello-forum-idempotent" />
+        <module name="hello-forum-model" />
+        <module name="hello-forum-service-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="heima-file-starter" target="17" />
+      <module name="heima-leadnews-common" target="17" />
+      <module name="mogotest" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="es-init" options="" />
+      <module name="heima-file-starter" options="" />
+      <module name="hello-forum-common" options="" />
+      <module name="hello-forum-feign-api" options="" />
+      <module name="hello-forum-gateway" options="" />
+      <module name="hello-forum-gateway-user" options="" />
+      <module name="hello-forum-idempotent" options="" />
+      <module name="hello-forum-model" options="" />
+      <module name="hello-forum-service" options="" />
+      <module name="hello-forum-service-behavior" options="" />
+      <module name="hello-forum-service-comment" options="" />
+      <module name="hello-forum-service-schedule" options="" />
+      <module name="hello-forum-service-search" options="" />
+      <module name="hello-forum-service-studio" options="" />
+      <module name="hello-forum-service-user" options="" />
+      <module name="hello-forum-test" options="" />
+      <module name="mogotest" options="" />
+    </option>
+  </component>
+</project>

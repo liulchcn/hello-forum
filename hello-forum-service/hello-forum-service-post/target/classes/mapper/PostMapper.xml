@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.heima.article.mapper.ApArticleMapper">
+
+    <resultMap id="resultMap" type="com.hello.model.post.pojos.Post">
+        <id column="id" property="id"/>
+        <result column="title" property="title"/>
+<!--        <result column="author_id" property="authorId"/>-->
+<!--        <result column="author_name" property="authorName"/>-->
+        <result column="channel_id" property="channelId"/>
+        <result column="channel_name" property="channelName"/>
+<!--        <result column="layout" property="layout"/>-->
+        <result column="flag" property="flag"/>
+        <result column="images" property="images"/>
+        <result column="labels" property="labels"/>
+        <result column="likes" property="likes"/>
+        <result column="collections" property="collections"/>
+        <result column="comments" property="comments"/>
+        <result column="views" property="views"/>
+        <result column="province" property="province"/>
+        <result column="city" property="city"/>
+        <result column="county" property="county"/>
+        <result column="created_time" property="createdTime"/>
+        <result column="publish_time" property="publishTime"/>
+    </resultMap>
+    <select id="loadPostList" resultMap="resultMap">
+        select *
+        from post
+        left join post_config ON post.id = post_config.post_id
+        <where>
+            post_config.is_delete != 1
+            and post_config.is_down != 1
+            <if test="postLoadDTO.maxHotTime != null">
+
+                and  #{postLoadDTO.maxHotTime} > post.publish_time
+            </if>
+            <if test="postLoadDTO.minHotTime != null">
+                and post.publish_time > #{postLoadDTO.minHotTime}
+            </if>
+        </where>
+        order by post.publish_time desc
+        limit #{postLoadDTO.size}
+    </select>
+
+
+</mapper>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_17" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<testFolder url="file://$MODULE_DIR$/target/generated-test-sources/test-annotations"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="Maven: org.projectlombok:lombok:1.18.24" scope="PROVIDED"/>
+	<lib name="Maven: junit:junit:3.8.1" scope="TEST"/>
+	<levels>
+		<level name="Maven: org.springframework.cloud:spring-cloud-starter-gateway:4.0.7" value="project"/>
+		<level name="Maven: org.springframework.cloud:spring-cloud-starter:4.0.4" value="project"/>
+		<level name="Maven: org.springframework.boot:spring-boot-starter:3.1.7" value="project"/>
+		<level name="Maven: org.springframework.boot:spring-boot:3.1.7" value="project"/>
+		<level name="Maven: org.springframework:spring-context:6.0.15" value="project"/>
+		<level name="Maven: org.springframework:spring-aop:6.0.15" value="project"/>
+		<level name="Maven: org.springframework:spring-expression:6.0.15" value="project"/>
+		<level name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.1.7" value="project"/>
+		<level name="Maven: org.springframework:spring-core:6.0.15" value="project"/>
+		<level name="Maven: org.springframework:spring-jcl:6.0.15" value="project"/>
+		<level name="Maven: org.springframework.security:spring-security-rsa:1.0.12.RELEASE" value="project"/>
+		<level name="Maven: org.bouncycastle:bcpkix-jdk18on:1.73" value="project"/>
+		<level name="Maven: org.bouncycastle:bcprov-jdk18on:1.73" value="project"/>
+		<level name="Maven: org.bouncycastle:bcutil-jdk18on:1.73" value="project"/>
+		<level name="Maven: org.springframework.cloud:spring-cloud-gateway-server:4.0.7" value="project"/>
+		<level name="Maven: org.springframework.boot:spring-boot-starter-validation:3.1.7" value="project"/>
+		<level name="Maven: org.apache.tomcat.embed:tomcat-embed-el:10.1.17" value="project"/>
+		<level name="Maven: org.hibernate.validator:hibernate-validator:8.0.1.Final" value="project"/>
+		<level name="Maven: jakarta.validation:jakarta.validation-api:3.0.2" value="project"/>
+		<level name="Maven: org.jboss.logging:jboss-logging:3.5.3.Final" value="project"/>
+		<level name="Maven: com.fasterxml:classmate:1.5.1" value="project"/>
+		<level name="Maven: org.springframework.boot:spring-boot-starter-webflux:3.1.7" value="project"/>
+		<level name="Maven: org.springframework.boot:spring-boot-starter-json:3.1.7" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.3" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.3" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.3" value="project"/>
+		<level name="Maven: org.springframework.boot:spring-boot-starter-reactor-netty:3.1.7" value="project"/>
+		<level name="Maven: io.projectreactor.netty:reactor-netty-http:1.1.14" value="project"/>
+		<level name="Maven: io.netty:netty-codec-http:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-common:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-buffer:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-transport:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-codec:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-handler:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-codec-http2:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-resolver-dns:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-resolver:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-codec-dns:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-resolver-dns-classes-macos:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-transport-native-unix-common:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-transport-classes-epoll:4.1.104.Final" value="project"/>
+		<level name="Maven: io.projectreactor.netty:reactor-netty-core:1.1.14" value="project"/>
+		<level name="Maven: io.netty:netty-handler-proxy:4.1.104.Final" value="project"/>
+		<level name="Maven: io.netty:netty-codec-socks:4.1.104.Final" value="project"/>
+		<level name="Maven: org.springframework:spring-web:6.0.15" value="project"/>
+		<level name="Maven: org.springframework:spring-beans:6.0.15" value="project"/>
+		<level name="Maven: io.micrometer:micrometer-observation:1.11.7" value="project"/>
+		<level name="Maven: io.micrometer:micrometer-commons:1.11.7" value="project"/>
+		<level name="Maven: org.springframework:spring-webflux:6.0.15" value="project"/>
+		<level name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2022.0.0.0" value="project"/>
+		<level name="Maven: com.alibaba.cloud:spring-cloud-alibaba-commons:2022.0.0.0" value="project"/>
+		<level name="Maven: com.alibaba.nacos:nacos-client:2.2.4" value="project"/>
+		<level name="Maven: com.alibaba.nacos:nacos-auth-plugin:2.2.4" value="project"/>
+		<level name="Maven: com.alibaba.nacos:nacos-encryption-plugin:2.2.4" value="project"/>
+		<level name="Maven: commons-codec:commons-codec:1.15" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.core:jackson-core:2.15.3" value="project"/>
+		<level name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.5" value="project"/>
+		<level name="Maven: org.apache.httpcomponents:httpcore:4.4.16" value="project"/>
+		<level name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.16" value="project"/>
+		<level name="Maven: org.apache.httpcomponents:httpclient:4.5.13" value="project"/>
+		<level name="Maven: io.prometheus:simpleclient:0.16.0" value="project"/>
+		<level name="Maven: io.prometheus:simpleclient_tracer_otel:0.16.0" value="project"/>
+		<level name="Maven: io.prometheus:simpleclient_tracer_common:0.16.0" value="project"/>
+		<level name="Maven: io.prometheus:simpleclient_tracer_otel_agent:0.16.0" value="project"/>
+		<level name="Maven: org.yaml:snakeyaml:1.33" value="project"/>
+		<level name="Maven: com.alibaba.spring:spring-context-support:1.0.11" value="project"/>
+		<level name="Maven: org.springframework.cloud:spring-cloud-commons:4.0.4" value="project"/>
+		<level name="Maven: org.springframework.security:spring-security-crypto:6.1.6" value="project"/>
+		<level name="Maven: org.springframework.cloud:spring-cloud-context:4.0.4" value="project"/>
+		<level name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2022.0.0.0" value="project"/>
+		<level name="Maven: org.slf4j:slf4j-api:2.0.9" value="project"/>
+		<level name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" value="project"/>
+		<level name="Maven: io.jsonwebtoken:jjwt:0.9.1" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.core:jackson-databind:2.15.3" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.15.3" value="project"/>
+		<level name="Maven: org.apache.commons:commons-lang3:3.12.0" value="project"/>
+		<level name="Maven: org.springframework.cloud:spring-cloud-loadbalancer:4.0.4" value="project"/>
+		<level name="Maven: io.projectreactor:reactor-core:3.5.13" value="project"/>
+		<level name="Maven: org.reactivestreams:reactive-streams:1.0.4" value="project"/>
+		<level name="Maven: io.projectreactor.addons:reactor-extra:3.5.1" value="project"/>
+		<level name="Maven: org.springframework.boot:spring-boot-starter-log4j2:3.1.7" value="project"/>
+		<level name="Maven: org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0" value="project"/>
+		<level name="Maven: org.apache.logging.log4j:log4j-api:2.20.0" value="project"/>
+		<level name="Maven: org.apache.logging.log4j:log4j-core:2.20.0" value="project"/>
+		<level name="Maven: org.apache.logging.log4j:log4j-jul:2.20.0" value="project"/>
+		<level name="Maven: org.projectlombok:lombok:1.18.24" value="project"/>
+		<level name="Maven: org.springframework.cloud:spring-cloud-starter-bootstrap:4.0.4" value="project"/>
+		<level name="Maven: junit:junit:3.8.1" value="project"/>
+	</levels>
+</component>

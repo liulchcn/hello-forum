@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hello.es.mapper.PostMapper">
+    <resultMap id="resultMap" type="com.hello.es.pojo.SearchPostVO">
+        <id column="id" property="id"/>
+        <result column="title" property="title"/>
+        <result column="publish_time" property="publishTime"/>
+        <result column="images" property="images"/>
+        <result column="user_id" property="user_id"/>
+        <result column="content" property="content"/>
+    </resultMap>
+    <select id="loadPostList" resultMap="resultMap">
+        SELECT
+            p.*,pct.content
+        FROM
+            post p,
+            post_config pcf,
+            post_content pct
+        WHERE
+         p.id = pcf.post_id
+        AND p.id = pct.post_id
+    </select>
+</mapper>

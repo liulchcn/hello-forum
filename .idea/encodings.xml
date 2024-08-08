@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://D:/File/Java/repository/org/springframework/boot/spring-boot-starter-parent/3.1.10/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-basic/heima-file-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-basic/heima-file-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-basic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-basic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-feign-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-feign-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-behavior/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-behavior/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-behavior/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-comment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-comment/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-test/es-init/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-test/es-init/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-test/mogotest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-test/xxljob-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-test/xxljob-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

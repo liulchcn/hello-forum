@@ -1,0 +1,30 @@
+server:
+  port: 51803
+
+spring:
+  application:
+    name: forum-studio
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.200.128
+      config:
+        server-addr: 192.168.200.128
+        file-extension: yml
+  kafka:
+    bootstrap-servers: 192.168.200.128:9092
+    producer:
+      retries: 10
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+feign:
+  # 开启feign对hystrix熔断降级的支持
+  hystrix:
+    enabled: true
+  # 修改调用超时时间
+  client:
+    config:
+      default:
+        connectTimeout: 2000
+        readTimeout: 2000

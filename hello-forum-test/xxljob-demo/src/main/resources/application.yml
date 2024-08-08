@@ -1,0 +1,11 @@
+server:
+  port: 8881
+
+
+xxl:
+  job:
+    admin:
+      addresses: http://192.168.200.128:8888/xxl-job-admin
+    executor:
+      appname: xxl-job-sharding-executor
+      port: 9999

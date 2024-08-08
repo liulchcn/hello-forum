@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-model/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-common/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-service-comment/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-feign-api/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-test/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-test/es-init/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-search/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-service-search/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-test/mogotest/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-behavior/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-test/xxljob-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-service-behavior/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/hello-forum-basic/heima-file-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-test/mogotest/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

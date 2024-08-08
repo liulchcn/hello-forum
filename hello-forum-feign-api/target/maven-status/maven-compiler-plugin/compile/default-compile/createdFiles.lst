@@ -1,0 +1,2 @@
+com\hello\feign\api\post\IPostClient.class
+com\hello\feign\api\schedule\IScheduleClient.class

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bc7bae4-198d-4d79-af94-d9b4c9b157ab" name="Changes" comment="对于文章提交实现了一个简单的AOP，防止快速重复提交而造成问题。" />
+    <list default="true" id="3bc7bae4-198d-4d79-af94-d9b4c9b157ab" name="Changes" comment="对于文章提交实现了一个简单的AOP，防止快速重复提交而造成问题。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-search/src/test/java/com/hello/search/HelloForumSearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-search/src/test/java/com/hello/search/HelloForumSearchApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/idempotent/aspect/RepeatSubmitApect.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/idempotent/aspect/RepeatSubmitApect.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +131,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/idea-project/hello-forum/hello-forum-model/src/main/java/com/hello/model/comment",
+    "last_opened_file_path": "E:/idea-project/hello-forum",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -137,7 +141,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "spring.configuration.checksum": "ae85fa6c82882d17d159809f0d251249",
     "vue.rearranger.settings.migration": "true"
   },
@@ -306,6 +310,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\L1835\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3bc7bae4-198d-4d79-af94-d9b4c9b157ab" name="Changes" comment="" />
@@ -395,6 +402,10 @@
       <workItem from="1723085479795" duration="10166000" />
       <workItem from="1723098048352" duration="212000" />
       <workItem from="1723098362497" duration="849000" />
+      <workItem from="1723099233132" duration="1147000" />
+      <workItem from="1723100393472" duration="13000" />
+      <workItem from="1723100434168" duration="839000" />
+      <workItem from="1723101316052" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="用户端 登录功能 完成">
       <option name="closed" value="true" />
@@ -540,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723097770415</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="对于文章提交实现了一个简单的AOP，防止快速重复提交而造成问题。">
+      <option name="closed" value="true" />
+      <created>1723099471341</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723099471341</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

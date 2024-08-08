@@ -59,7 +59,7 @@ public class RepeatSubmitApect {
                         return joinPoint.proceed();
 
                     }else {
-                        return Result.error(repeatSubmit.message());·
+                        return Result.error(repeatSubmit.message());
                     }
 
 //        }

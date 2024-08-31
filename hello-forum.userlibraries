@@ -1,541 +1,1195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <eclipse-userlibraries>
-  <library name="Maven: org.apache.hbase:hbase-client:2.1.5">
-    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-client/2.1.5/hbase-client-2.1.5.jar" />
-  </library>
-  <library name="Maven: javax.xml.bind:jaxb-api:2.3.1">
-    <archive path="D:/File/Java/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar" />
-  </library>
-  <library name="Maven: org.projectlombok:lombok:1.18.24">
-    <archive path="D:/File/Java/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
-  </library>
-  <library name="Maven: junit:junit:3.8.1">
-    <archive path="D:/File/Java/repository/junit/junit/3.8.1/junit-3.8.1.jar" />
-  </library>
-  <library name="Maven: org.mybatis:mybatis-spring:3.0.3">
-    <archive path="D:/File/Java/repository/org/mybatis/mybatis-spring/3.0.3/mybatis-spring-3.0.3.jar" />
-  </library>
-  <library name="Maven: org.jboss.logging:jboss-logging:3.5.3.Final">
-    <archive path="D:/File/Java/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar" />
-  </library>
-  <library name="Maven: org.latencyutils:LatencyUtils:2.0.3">
-    <archive path="D:/File/Java/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar" />
-  </library>
-  <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.3">
-    <archive path="D:/File/Java/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.3/jackson-datatype-jdk8-2.15.3.jar" />
-  </library>
-  <library name="Maven: io.micrometer:micrometer-observation:1.11.7">
-    <archive path="D:/File/Java/repository/io/micrometer/micrometer-observation/1.11.7/micrometer-observation-1.11.7.jar" />
-  </library>
-  <library name="Maven: org.tukaani:xz:1.0">
-    <archive path="D:/File/Java/repository/org/tukaani/xz/1.0/xz-1.0.jar" />
-  </library>
-  <library name="Maven: com.github.stephenc.findbugs:findbugs-annotations:1.3.9-1">
-    <archive path="D:/File/Java/repository/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.jar" />
-  </library>
-  <library name="Maven: org.springframework.boot:spring-boot-starter-validation:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-validation/3.1.7/spring-boot-starter-validation-3.1.7.jar" />
-  </library>
-  <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.15.3">
-    <archive path="D:/File/Java/repository/com/fasterxml/jackson/core/jackson-core/2.15.3/jackson-core-2.15.3.jar" />
-  </library>
-  <library name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13">
-    <archive path="D:/File/Java/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar" />
-  </library>
-  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:10.1.17">
-    <archive path="D:/File/Java/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.17/tomcat-embed-websocket-10.1.17.jar" />
-  </library>
-  <library name="Maven: com.baomidou:mybatis-plus-annotation:3.5.3.1">
-    <archive path="D:/File/Java/repository/com/baomidou/mybatis-plus-annotation/3.5.3.1/mybatis-plus-annotation-3.5.3.1.jar" />
-  </library>
-  <library name="Maven: commons-configuration:commons-configuration:1.6">
-    <archive path="D:/File/Java/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar" />
-  </library>
-  <library name="Maven: org.apache.curator:curator-recipes:5.1.0">
-    <archive path="D:/File/Java/repository/org/apache/curator/curator-recipes/5.1.0/curator-recipes-5.1.0.jar" />
-  </library>
-  <library name="Maven: org.springframework:spring-context-support:6.0.15">
-    <archive path="D:/File/Java/repository/org/springframework/spring-context-support/6.0.15/spring-context-support-6.0.15.jar" />
-  </library>
-  <library name="Maven: com.baomidou:mybatis-plus-boot-starter:3.5.3.1">
-    <archive path="D:/File/Java/repository/com/baomidou/mybatis-plus-boot-starter/3.5.3.1/mybatis-plus-boot-starter-3.5.3.1.jar" />
-  </library>
-  <library name="Maven: org.springframework.boot:spring-boot-starter-actuator:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-actuator/3.1.7/spring-boot-starter-actuator-3.1.7.jar" />
-  </library>
-  <library name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2022.0.0.0">
-    <archive path="D:/File/Java/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2022.0.0.0/spring-cloud-starter-alibaba-nacos-config-2022.0.0.0.jar" />
-  </library>
-  <library name="Maven: org.xerial.snappy:snappy-java:1.0.4.1">
-    <archive path="D:/File/Java/repository/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1.jar" />
-  </library>
-  <library name="Maven: org.springframework:spring-jdbc:6.0.15">
-    <archive path="D:/File/Java/repository/org/springframework/spring-jdbc/6.0.15/spring-jdbc-6.0.15.jar" />
-  </library>
-  <library name="Maven: io.projectreactor.addons:reactor-extra:3.5.1">
-    <archive path="D:/File/Java/repository/io/projectreactor/addons/reactor-extra/3.5.1/reactor-extra-3.5.1.jar" />
-  </library>
-  <library name="Maven: com.alibaba.nacos:nacos-encryption-plugin:2.2.4">
-    <archive path="D:/File/Java/repository/com/alibaba/nacos/nacos-encryption-plugin/2.2.4/nacos-encryption-plugin-2.2.4.jar" />
-  </library>
-  <library name="Maven: org.apache.curator:curator-framework:5.1.0">
-    <archive path="D:/File/Java/repository/org/apache/curator/curator-framework/5.1.0/curator-framework-5.1.0.jar" />
-  </library>
-  <library name="Maven: org.springframework:spring-jcl:6.0.15">
-    <archive path="D:/File/Java/repository/org/springframework/spring-jcl/6.0.15/spring-jcl-6.0.15.jar" />
-  </library>
-  <library name="Maven: io.prometheus:simpleclient:0.16.0">
-    <archive path="D:/File/Java/repository/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar" />
-  </library>
-  <library name="Maven: org.apache.directory.server:apacheds-kerberos-codec:2.0.0-M15">
-    <archive path="D:/File/Java/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar" />
-  </library>
-  <library name="Maven: org.springframework:spring-expression:6.0.15">
-    <archive path="D:/File/Java/repository/org/springframework/spring-expression/6.0.15/spring-expression-6.0.15.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-handler-proxy:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-handler-proxy/4.1.104.Final/netty-handler-proxy-4.1.104.Final.jar" />
-  </library>
-  <library name="Maven: commons-net:commons-net:3.1">
-    <archive path="D:/File/Java/repository/commons-net/commons-net/3.1/commons-net-3.1.jar" />
-  </library>
-  <library name="Maven: org.bouncycastle:bcutil-jdk18on:1.73">
-    <archive path="D:/File/Java/repository/org/bouncycastle/bcutil-jdk18on/1.73/bcutil-jdk18on-1.73.jar" />
-  </library>
-  <library name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2022.0.0.0">
-    <archive path="D:/File/Java/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2022.0.0.0/spring-cloud-starter-alibaba-nacos-discovery-2022.0.0.0.jar" />
-  </library>
-  <library name="Maven: commons-cli:commons-cli:1.2">
-    <archive path="D:/File/Java/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar" />
-  </library>
-  <library name="Maven: org.springframework.cloud:spring-cloud-commons:4.0.4">
-    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-commons/4.0.4/spring-cloud-commons-4.0.4.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-resolver:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-resolver/4.1.104.Final/netty-resolver-4.1.104.Final.jar" />
-  </library>
-  <library name="Maven: commons-io:commons-io:2.11.0">
-    <archive path="D:/File/Java/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar" />
-  </library>
-  <library name="Maven: org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0">
-    <archive path="D:/File/Java/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.20.0/log4j-slf4j2-impl-2.20.0.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-transport-native-epoll/4.1.104.Final/netty-transport-native-epoll-4.1.104.Final-linux-x86_64.jar" />
-  </library>
-  <library name="Maven: org.apache.hbase:hbase-metrics:2.1.5">
-    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-metrics/2.1.5/hbase-metrics-2.1.5.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-codec-http:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-codec-http/4.1.104.Final/netty-codec-http-4.1.104.Final.jar" />
-  </library>
-  <library name="Maven: org.apache.commons:commons-crypto:1.0.0">
-    <archive path="D:/File/Java/repository/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0.jar" />
-  </library>
-  <library name="Maven: org.springframework.boot:spring-boot:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot/3.1.7/spring-boot-3.1.7.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-codec:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-codec/4.1.104.Final/netty-codec-4.1.104.Final.jar" />
-  </library>
-  <library name="Maven: org.apache.htrace:htrace-core4:4.2.0-incubating">
-    <archive path="D:/File/Java/repository/org/apache/htrace/htrace-core4/4.2.0-incubating/htrace-core4-4.2.0-incubating.jar" />
-  </library>
-  <library name="Maven: org.apache.logging.log4j:log4j-jul:2.20.0">
-    <archive path="D:/File/Java/repository/org/apache/logging/log4j/log4j-jul/2.20.0/log4j-jul-2.20.0.jar" />
-  </library>
-  <library name="Maven: io.jsonwebtoken:jjwt:0.9.1">
-    <archive path="D:/File/Java/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar" />
-  </library>
-  <library name="Maven: com.fasterxml:classmate:1.5.1">
-    <archive path="D:/File/Java/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar" />
-  </library>
-  <library name="Maven: io.micrometer:micrometer-commons:1.11.7">
-    <archive path="D:/File/Java/repository/io/micrometer/micrometer-commons/1.11.7/micrometer-commons-1.11.7.jar" />
-  </library>
-  <library name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.3">
-    <archive path="D:/File/Java/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.3/jackson-module-parameter-names-2.15.3.jar" />
-  </library>
-  <library name="Maven: com.stoyanr:evictor:1.0.0">
-    <archive path="D:/File/Java/repository/com/stoyanr/evictor/1.0.0/evictor-1.0.0.jar" />
-  </library>
-  <library name="Maven: org.apache.hbase:hbase-hadoop-compat:2.1.5">
-    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-hadoop-compat/2.1.5/hbase-hadoop-compat-2.1.5.jar" />
-  </library>
-  <library name="Maven: org.apache.yetus:audience-annotations:0.5.0">
-    <archive path="D:/File/Java/repository/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar" />
-  </library>
-  <library name="Maven: javax.activation:javax.activation-api:1.2.0">
-    <archive path="D:/File/Java/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar" />
-  </library>
-  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-el:10.1.17">
-    <archive path="D:/File/Java/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.17/tomcat-embed-el-10.1.17.jar" />
-  </library>
-  <library name="Maven: org.springframework.boot:spring-boot-starter-web:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-web/3.1.7/spring-boot-starter-web-3.1.7.jar" />
-  </library>
-  <library name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13">
-    <archive path="D:/File/Java/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar" />
-  </library>
-  <library name="Maven: com.github.jsqlparser:jsqlparser:4.4">
-    <archive path="D:/File/Java/repository/com/github/jsqlparser/jsqlparser/4.4/jsqlparser-4.4.jar" />
-  </library>
-  <library name="Maven: org.springframework:spring-webmvc:6.0.15">
-    <archive path="D:/File/Java/repository/org/springframework/spring-webmvc/6.0.15/spring-webmvc-6.0.15.jar" />
-  </library>
-  <library name="Maven: commons-digester:commons-digester:1.8">
-    <archive path="D:/File/Java/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar" />
-  </library>
-  <library name="Maven: com.baomidou:mybatis-plus:3.5.3.1">
-    <archive path="D:/File/Java/repository/com/baomidou/mybatis-plus/3.5.3.1/mybatis-plus-3.5.3.1.jar" />
-  </library>
-  <library name="Maven: com.google.code.findbugs:jsr305:3.0.0">
-    <archive path="D:/File/Java/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar" />
-  </library>
-  <library name="Maven: io.prometheus:simpleclient_tracer_common:0.16.0">
-    <archive path="D:/File/Java/repository/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar" />
-  </library>
-  <library name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.1.7/spring-boot-actuator-autoconfigure-3.1.7.jar" />
-  </library>
-  <library name="Maven: org.springframework.cloud:spring-cloud-loadbalancer:4.0.4">
-    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-loadbalancer/4.0.4/spring-cloud-loadbalancer-4.0.4.jar" />
-  </library>
-  <library name="Maven: com.google.code.gson:gson:2.10.1">
-    <archive path="D:/File/Java/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar" />
-  </library>
-  <library name="Maven: org.springframework:spring-tx:6.0.15">
-    <archive path="D:/File/Java/repository/org/springframework/spring-tx/6.0.15/spring-tx-6.0.15.jar" />
-  </library>
-  <library name="Maven: org.apache.hadoop:hadoop-common:2.7.7">
-    <archive path="D:/File/Java/repository/org/apache/hadoop/hadoop-common/2.7.7/hadoop-common-2.7.7.jar" />
-  </library>
-  <library name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.5">
-    <archive path="D:/File/Java/repository/org/apache/httpcomponents/httpasyncclient/4.1.5/httpasyncclient-4.1.5.jar" />
-  </library>
-  <library name="Maven: org.yaml:snakeyaml:1.33">
-    <archive path="D:/File/Java/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar" />
-  </library>
-  <library name="Maven: org.apache.directory.server:apacheds-i18n:2.0.0-M15">
-    <archive path="D:/File/Java/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar" />
-  </library>
-  <library name="Maven: io.prometheus:simpleclient_tracer_otel:0.16.0">
-    <archive path="D:/File/Java/repository/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar" />
-  </library>
-  <library name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.7/spring-boot-autoconfigure-3.1.7.jar" />
-  </library>
-  <library name="Maven: commons-collections:commons-collections:3.2.2">
-    <archive path="D:/File/Java/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-codec-socks:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-codec-socks/4.1.104.Final/netty-codec-socks-4.1.104.Final.jar" />
-  </library>
-  <library name="Maven: mysql:mysql-connector-java:8.0.27">
-    <archive path="D:/File/Java/repository/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar" />
-  </library>
-  <library name="Maven: org.apache.commons:commons-math3:3.1.1">
-    <archive path="D:/File/Java/repository/org/apache/commons/commons-math3/3.1.1/commons-math3-3.1.1.jar" />
-  </library>
-  <library name="Maven: com.alibaba.cloud:spring-cloud-alibaba-commons:2022.0.0.0">
-    <archive path="D:/File/Java/repository/com/alibaba/cloud/spring-cloud-alibaba-commons/2022.0.0.0/spring-cloud-alibaba-commons-2022.0.0.0.jar" />
-  </library>
-  <library name="Maven: org.springframework.security:spring-security-rsa:1.0.12.RELEASE">
-    <archive path="D:/File/Java/repository/org/springframework/security/spring-security-rsa/1.0.12.RELEASE/spring-security-rsa-1.0.12.RELEASE.jar" />
-  </library>
-  <library name="Maven: org.apache.hbase.thirdparty:hbase-shaded-miscellaneous:2.1.0">
-    <archive path="D:/File/Java/repository/org/apache/hbase/thirdparty/hbase-shaded-miscellaneous/2.1.0/hbase-shaded-miscellaneous-2.1.0.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-codec-dns:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-codec-dns/4.1.104.Final/netty-codec-dns-4.1.104.Final.jar" />
-  </library>
-  <library name="Maven: org.apache.logging.log4j:log4j-api:2.20.0">
-    <archive path="D:/File/Java/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar" />
-  </library>
-  <library name="Maven: org.apache.hbase:hbase-protocol-shaded:2.1.5">
-    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-protocol-shaded/2.1.5/hbase-protocol-shaded-2.1.5.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-transport-native-unix-common:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-transport-native-unix-common/4.1.104.Final/netty-transport-native-unix-common-4.1.104.Final.jar" />
-  </library>
-  <library name="Maven: org.apache.hadoop:hadoop-auth:2.7.7">
-    <archive path="D:/File/Java/repository/org/apache/hadoop/hadoop-auth/2.7.7/hadoop-auth-2.7.7.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-common:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-common/4.1.104.Final/netty-common-4.1.104.Final.jar" />
-  </library>
-  <library name="Maven: org.springframework:spring-context:6.0.15">
-    <archive path="D:/File/Java/repository/org/springframework/spring-context/6.0.15/spring-context-6.0.15.jar" />
-  </library>
-  <library name="Maven: org.jruby.jcodings:jcodings:1.0.18">
-    <archive path="D:/File/Java/repository/org/jruby/jcodings/jcodings/1.0.18/jcodings-1.0.18.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-handler:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-handler/4.1.104.Final/netty-handler-4.1.104.Final.jar" />
-  </library>
-  <library name="Maven: org.springframework.cloud:spring-cloud-starter-bootstrap:4.0.4">
-    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-starter-bootstrap/4.0.4/spring-cloud-starter-bootstrap-4.0.4.jar" />
-  </library>
-  <library name="Maven: org.hibernate.validator:hibernate-validator:8.0.1.Final">
-    <archive path="D:/File/Java/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar" />
-  </library>
-  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.15.3">
-    <archive path="D:/File/Java/repository/com/fasterxml/jackson/core/jackson-databind/2.15.3/jackson-databind-2.15.3.jar" />
-  </library>
-  <library name="Maven: org.springframework.boot:spring-boot-starter-webflux:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-webflux/3.1.7/spring-boot-starter-webflux-3.1.7.jar" />
-  </library>
-  <library name="Maven: io.micrometer:micrometer-core:1.11.7">
-    <archive path="D:/File/Java/repository/io/micrometer/micrometer-core/1.11.7/micrometer-core-1.11.7.jar" />
-  </library>
-  <library name="Maven: org.apache.htrace:htrace-core:3.1.0-incubating">
-    <archive path="D:/File/Java/repository/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating.jar" />
-  </library>
-  <library name="Maven: org.apache.hbase:hbase-metrics-api:2.1.5">
-    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-metrics-api/2.1.5/hbase-metrics-api-2.1.5.jar" />
-  </library>
-  <library name="Maven: org.springframework.cloud:spring-cloud-starter-gateway:4.0.7">
-    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-starter-gateway/4.0.7/spring-cloud-starter-gateway-4.0.7.jar" />
-  </library>
-  <library name="Maven: org.apache.hbase.thirdparty:hbase-shaded-protobuf:2.1.0">
-    <archive path="D:/File/Java/repository/org/apache/hbase/thirdparty/hbase-shaded-protobuf/2.1.0/hbase-shaded-protobuf-2.1.0.jar" />
-  </library>
-  <library name="Maven: org.springframework.boot:spring-boot-starter-tomcat:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-tomcat/3.1.7/spring-boot-starter-tomcat-3.1.7.jar" />
-  </library>
-  <library name="Maven: org.springframework.boot:spring-boot-starter-jdbc:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-jdbc/3.1.7/spring-boot-starter-jdbc-3.1.7.jar" />
-  </library>
-  <library name="Maven: commons-beanutils:commons-beanutils:1.7.0">
-    <archive path="D:/File/Java/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar" />
-  </library>
-  <library name="Maven: org.springframework.cloud:spring-cloud-starter-loadbalancer:4.0.4">
-    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.0.4/spring-cloud-starter-loadbalancer-4.0.4.jar" />
-  </library>
-  <library name="Maven: com.baomidou:mybatis-plus-extension:3.5.3.1">
-    <archive path="D:/File/Java/repository/com/baomidou/mybatis-plus-extension/3.5.3.1/mybatis-plus-extension-3.5.3.1.jar" />
-  </library>
-  <library name="Maven: commons-logging:commons-logging:1.1.3">
-    <archive path="D:/File/Java/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar" />
-  </library>
-  <library name="Maven: org.springframework.boot:spring-boot-actuator:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-actuator/3.1.7/spring-boot-actuator-3.1.7.jar" />
-  </library>
-  <library name="Maven: io.prometheus:simpleclient_tracer_otel_agent:0.16.0">
-    <archive path="D:/File/Java/repository/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar" />
-  </library>
-  <library name="Maven: com.jcraft:jsch:0.1.54">
-    <archive path="D:/File/Java/repository/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar" />
-  </library>
-  <library name="Maven: com.alibaba:fastjson:1.2.58">
-    <archive path="D:/File/Java/repository/com/alibaba/fastjson/1.2.58/fastjson-1.2.58.jar" />
-  </library>
-  <library name="Maven: io.projectreactor:reactor-core:3.5.13">
-    <archive path="D:/File/Java/repository/io/projectreactor/reactor-core/3.5.13/reactor-core-3.5.13.jar" />
-  </library>
-  <library name="Maven: org.apache.avro:avro:1.7.4">
-    <archive path="D:/File/Java/repository/org/apache/avro/avro/1.7.4/avro-1.7.4.jar" />
-  </library>
-  <library name="Maven: com.alibaba.nacos:nacos-client:2.2.4">
-    <archive path="D:/File/Java/repository/com/alibaba/nacos/nacos-client/2.2.4/nacos-client-2.2.4.jar" />
-  </library>
-  <library name="Maven: org.apache.hadoop:hadoop-annotations:2.7.7">
-    <archive path="D:/File/Java/repository/org/apache/hadoop/hadoop-annotations/2.7.7/hadoop-annotations-2.7.7.jar" />
-  </library>
-  <library name="Maven: org.springframework.cloud:spring-cloud-context:4.0.4">
-    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-context/4.0.4/spring-cloud-context-4.0.4.jar" />
-  </library>
-  <library name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.16">
-    <archive path="D:/File/Java/repository/org/apache/httpcomponents/httpcore-nio/4.4.16/httpcore-nio-4.4.16.jar" />
-  </library>
-  <library name="Maven: org.apache.directory.api:api-asn1-api:1.0.0-M20">
-    <archive path="D:/File/Java/repository/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20.jar" />
-  </library>
-  <library name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1">
-    <archive path="D:/File/Java/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-transport-classes-epoll:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-transport-classes-epoll/4.1.104.Final/netty-transport-classes-epoll-4.1.104.Final.jar" />
-  </library>
-  <library name="Maven: org.mortbay.jetty:jetty-sslengine:6.1.26">
-    <archive path="D:/File/Java/repository/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.jar" />
-  </library>
-  <library name="Maven: com.google.protobuf:protobuf-java:3.11.4">
-    <archive path="D:/File/Java/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar" />
-  </library>
-  <library name="Maven: org.springframework:spring-web:6.0.15">
-    <archive path="D:/File/Java/repository/org/springframework/spring-web/6.0.15/spring-web-6.0.15.jar" />
-  </library>
-  <library name="Maven: xmlenc:xmlenc:0.52">
-    <archive path="D:/File/Java/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar" />
-  </library>
-  <library name="Maven: org.bouncycastle:bcpkix-jdk18on:1.73">
-    <archive path="D:/File/Java/repository/org/bouncycastle/bcpkix-jdk18on/1.73/bcpkix-jdk18on-1.73.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-codec-http2:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-codec-http2/4.1.104.Final/netty-codec-http2-4.1.104.Final.jar" />
-  </library>
-  <library name="Maven: org.apache.hbase.thirdparty:hbase-shaded-netty:2.1.0">
-    <archive path="D:/File/Java/repository/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/hbase-shaded-netty-2.1.0.jar" />
-  </library>
-  <library name="Maven: org.slf4j:slf4j-api:2.0.9">
-    <archive path="D:/File/Java/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-resolver-dns-native-macos/4.1.104.Final/netty-resolver-dns-native-macos-4.1.104.Final-osx-x86_64.jar" />
-  </library>
-  <library name="Maven: org.apache.hbase:hbase-protocol:2.1.5">
-    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-protocol/2.1.5/hbase-protocol-2.1.5.jar" />
-  </library>
-  <library name="Maven: org.springframework.boot:spring-boot-starter-reactor-netty:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-reactor-netty/3.1.7/spring-boot-starter-reactor-netty-3.1.7.jar" />
-  </library>
-  <library name="Maven: org.apache.httpcomponents:httpclient:4.2.5">
-    <archive path="D:/File/Java/repository/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar" />
-  </library>
-  <library name="Maven: org.springframework:spring-aop:6.0.15">
-    <archive path="D:/File/Java/repository/org/springframework/spring-aop/6.0.15/spring-aop-6.0.15.jar" />
-  </library>
-  <library name="Maven: io.netty:netty-buffer:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-buffer/4.1.104.Final/netty-buffer-4.1.104.Final.jar" />
-  </library>
-  <library name="Maven: org.jruby.joni:joni:2.1.11">
-    <archive path="D:/File/Java/repository/org/jruby/joni/joni/2.1.11/joni-2.1.11.jar" />
-  </library>
-  <library name="Maven: org.springframework.cloud:spring-cloud-starter:4.0.4">
-    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-starter/4.0.4/spring-cloud-starter-4.0.4.jar" />
-  </library>
-  <library name="Maven: jakarta.validation:jakarta.validation-api:3.0.2">
-    <archive path="D:/File/Java/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar" />
-  </library>
-  <library name="Maven: org.hdrhistogram:HdrHistogram:2.1.12">
-    <archive path="D:/File/Java/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar" />
-  </library>
-  <library name="Maven: org.springframework.boot:spring-boot-starter-json:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-json/3.1.7/spring-boot-starter-json-3.1.7.jar" />
-  </library>
-  <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.3">
-    <archive path="D:/File/Java/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.3/jackson-datatype-jsr310-2.15.3.jar" />
-  </library>
-  <library name="Maven: org.apache.commons:commons-compress:1.4.1">
-    <archive path="D:/File/Java/repository/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar" />
-  </library>
-  <library name="Maven: org.apache.hbase:hbase-common:2.1.5">
-    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-common/2.1.5/hbase-common-2.1.5.jar" />
-  </library>
-  <library name="Maven: org.springframework.cloud:spring-cloud-gateway-server:4.0.7">
-    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-gateway-server/4.0.7/spring-cloud-gateway-server-4.0.7.jar" />
-  </library>
-  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.15.3">
-    <archive path="D:/File/Java/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar" />
-  </library>
-  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-core:10.1.17">
-    <archive path="D:/File/Java/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.17/tomcat-embed-core-10.1.17.jar" />
-  </library>
-  <library name="Maven: commons-beanutils:commons-beanutils-core:1.8.0">
-    <archive path="D:/File/Java/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar" />
+  <library name="Maven: org.redisson:redisson:3.21.3">
+    <archive path="D:/File/Java/repository/org/redisson/redisson/3.21.3/redisson-3.21.3.jar" />
+  </library>
+  <library name="Maven: jakarta.activation:jakarta.activation-api:2.1.2">
+    <archive path="D:/File/Java/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar" />
   </library>
   <library name="Maven: com.baomidou:mybatis-plus-core:3.5.3.1">
     <archive path="D:/File/Java/repository/com/baomidou/mybatis-plus-core/3.5.3.1/mybatis-plus-core-3.5.3.1.jar" />
   </library>
-  <library name="Maven: org.apache.curator:curator-client:2.7.1">
-    <archive path="D:/File/Java/repository/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar" />
+  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-el:10.1.17">
+    <archive path="D:/File/Java/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.17/tomcat-embed-el-10.1.17.jar" />
   </library>
-  <library name="Maven: org.springframework.boot:spring-boot-starter-cache:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-cache/3.1.7/spring-boot-starter-cache-3.1.7.jar" />
+  <library name="Maven: com.sun.xml.fastinfoset:FastInfoset:2.1.0">
+    <archive path="D:/File/Java/repository/com/sun/xml/fastinfoset/FastInfoset/2.1.0/FastInfoset-2.1.0.jar" />
   </library>
-  <library name="Maven: commons-lang:commons-lang:2.6">
-    <archive path="D:/File/Java/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" />
+  <library name="Maven: org.slf4j:slf4j-api:2.0.9">
+    <archive path="D:/File/Java/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar" />
   </library>
-  <library name="Maven: org.apache.commons:commons-lang3:3.12.0">
-    <archive path="D:/File/Java/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+  <library name="Maven: org.apache.hbase:hbase-hadoop-compat:2.1.5">
+    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-hadoop-compat/2.1.5/hbase-hadoop-compat-2.1.5.jar" />
   </library>
   <library name="Maven: com.alibaba.spring:spring-context-support:1.0.11">
     <archive path="D:/File/Java/repository/com/alibaba/spring/spring-context-support/1.0.11/spring-context-support-1.0.11.jar" />
   </library>
-  <library name="Maven: org.springframework.boot:spring-boot-configuration-processor:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-configuration-processor/3.1.7/spring-boot-configuration-processor-3.1.7.jar" />
+  <library name="Maven: org.apache.logging.log4j:log4j-jul:2.20.0">
+    <archive path="D:/File/Java/repository/org/apache/logging/log4j/log4j-jul/2.20.0/log4j-jul-2.20.0.jar" />
   </library>
-  <library name="Maven: org.reactivestreams:reactive-streams:1.0.4">
-    <archive path="D:/File/Java/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" />
+  <library name="Maven: commons-lang:commons-lang:2.6">
+    <archive path="D:/File/Java/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" />
   </library>
-  <library name="Maven: com.thoughtworks.paranamer:paranamer:2.3">
-    <archive path="D:/File/Java/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar" />
+  <library name="Maven: io.opentracing:opentracing-api:0.33.0">
+    <archive path="D:/File/Java/repository/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar" />
   </library>
-  <library name="Maven: com.zaxxer:HikariCP:5.0.1">
-    <archive path="D:/File/Java/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar" />
+  <library name="Maven: javax.xml.bind:jaxb-api:2.3.1">
+    <archive path="D:/File/Java/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar" />
   </library>
-  <library name="Maven: com.alibaba.nacos:nacos-auth-plugin:2.2.4">
-    <archive path="D:/File/Java/repository/com/alibaba/nacos/nacos-auth-plugin/2.2.4/nacos-auth-plugin-2.2.4.jar" />
+  <library name="Maven: org.aspectj:aspectjweaver:1.9.21">
+    <archive path="D:/File/Java/repository/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21.jar" />
   </library>
-  <library name="Maven: org.springframework.security:spring-security-crypto:6.1.6">
-    <archive path="D:/File/Java/repository/org/springframework/security/spring-security-crypto/6.1.6/spring-security-crypto-6.1.6.jar" />
+  <library name="Maven: org.yaml:snakeyaml:1.33">
+    <archive path="D:/File/Java/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar" />
   </library>
-  <library name="Maven: org.apache.directory.api:api-util:1.0.0-M20">
-    <archive path="D:/File/Java/repository/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20.jar" />
+  <library name="Maven: io.micrometer:micrometer-core:1.11.7">
+    <archive path="D:/File/Java/repository/io/micrometer/micrometer-core/1.11.7/micrometer-core-1.11.7.jar" />
   </library>
-  <library name="Maven: org.apache.httpcomponents:httpclient:4.5.13">
-    <archive path="D:/File/Java/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar" />
+  <library name="Maven: io.projectreactor.addons:reactor-extra:3.5.1">
+    <archive path="D:/File/Java/repository/io/projectreactor/addons/reactor-extra/3.5.1/reactor-extra-3.5.1.jar" />
   </library>
-  <library name="Maven: org.springframework:spring-core:6.0.15">
-    <archive path="D:/File/Java/repository/org/springframework/spring-core/6.0.15/spring-core-6.0.15.jar" />
+  <library name="Maven: commons-cli:commons-cli:1.2">
+    <archive path="D:/File/Java/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar" />
   </library>
-  <library name="Maven: org.apache.httpcomponents:httpcore:4.4.16">
-    <archive path="D:/File/Java/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar" />
+  <library name="Maven: com.alibaba:fastjson:1.2.58">
+    <archive path="D:/File/Java/repository/com/alibaba/fastjson/1.2.58/fastjson-1.2.58.jar" />
   </library>
-  <library name="Maven: io.projectreactor.netty:reactor-netty-core:1.1.14">
-    <archive path="D:/File/Java/repository/io/projectreactor/netty/reactor-netty-core/1.1.14/reactor-netty-core-1.1.14.jar" />
+  <library name="Maven: log4j:log4j:1.2.17">
+    <archive path="D:/File/Java/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar" />
   </library>
-  <library name="Maven: org.mybatis:mybatis:3.5.1">
-    <archive path="D:/File/Java/repository/org/mybatis/mybatis/3.5.1/mybatis-3.5.1.jar" />
+  <library name="Maven: org.apache.htrace:htrace-core4:4.2.0-incubating">
+    <archive path="D:/File/Java/repository/org/apache/htrace/htrace-core4/4.2.0-incubating/htrace-core4-4.2.0-incubating.jar" />
   </library>
-  <library name="Maven: commons-httpclient:commons-httpclient:3.1">
-    <archive path="D:/File/Java/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar" />
+  <library name="Maven: org.springframework:spring-aop:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-aop/6.0.15/spring-aop-6.0.15.jar" />
   </library>
-  <library name="Maven: org.springframework:spring-webflux:6.0.15">
-    <archive path="D:/File/Java/repository/org/springframework/spring-webflux/6.0.15/spring-webflux-6.0.15.jar" />
+  <library name="Maven: com.baomidou:mybatis-plus:3.5.3.1">
+    <archive path="D:/File/Java/repository/com/baomidou/mybatis-plus/3.5.3.1/mybatis-plus-3.5.3.1.jar" />
   </library>
-  <library name="Maven: org.bouncycastle:bcprov-jdk18on:1.73">
-    <archive path="D:/File/Java/repository/org/bouncycastle/bcprov-jdk18on/1.73/bcprov-jdk18on-1.73.jar" />
+  <library name="Maven: io.protostuff:protostuff-runtime:1.6.0">
+    <archive path="D:/File/Java/repository/io/protostuff/protostuff-runtime/1.6.0/protostuff-runtime-1.6.0.jar" />
   </library>
-  <library name="Maven: com.google.guava:guava:11.0.2">
-    <archive path="D:/File/Java/repository/com/google/guava/guava/11.0.2/guava-11.0.2.jar" />
+  <library name="Maven: org.apache.directory.server:apacheds-i18n:2.0.0-M15">
+    <archive path="D:/File/Java/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-codec-http:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-codec-http/4.1.104.Final/netty-codec-http-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: com.jcraft:jsch:0.1.54">
+    <archive path="D:/File/Java/repository/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar" />
+  </library>
+  <library name="Maven: com.lowagie:itext:2.1.7">
+    <archive path="D:/File/Java/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar" />
+  </library>
+  <library name="Maven: javax.activation:javax.activation-api:1.2.0">
+    <archive path="D:/File/Java/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jdbc:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-jdbc/6.0.15/spring-jdbc-6.0.15.jar" />
   </library>
   <library name="Maven: io.netty:netty-resolver-dns:4.1.104.Final">
     <archive path="D:/File/Java/repository/io/netty/netty-resolver-dns/4.1.104.Final/netty-resolver-dns-4.1.104.Final.jar" />
   </library>
-  <library name="Maven: org.apache.logging.log4j:log4j-core:2.20.0">
-    <archive path="D:/File/Java/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar" />
+  <library name="Maven: org.springframework.cloud:spring-cloud-loadbalancer:4.0.4">
+    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-loadbalancer/4.0.4/spring-cloud-loadbalancer-4.0.4.jar" />
   </library>
-  <library name="Maven: commons-codec:commons-codec:1.15">
-    <archive path="D:/File/Java/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar" />
+  <library name="Maven: io.opentracing:opentracing-util:0.33.0">
+    <archive path="D:/File/Java/repository/io/opentracing/opentracing-util/0.33.0/opentracing-util-0.33.0.jar" />
   </library>
-  <library name="Maven: io.netty:netty-resolver-dns-classes-macos:4.1.104.Final">
-    <archive path="D:/File/Java/repository/io/netty/netty-resolver-dns-classes-macos/4.1.104.Final/netty-resolver-dns-classes-macos-4.1.104.Final.jar" />
+  <library name="Maven: org.mongodb:mongodb-driver-sync:4.9.1">
+    <archive path="D:/File/Java/repository/org/mongodb/mongodb-driver-sync/4.9.1/mongodb-driver-sync-4.9.1.jar" />
   </library>
-  <library name="Maven: org.springframework.boot:spring-boot-starter-log4j2:3.1.7">
-    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-log4j2/3.1.7/spring-boot-starter-log4j2-3.1.7.jar" />
+  <library name="Maven: org.springframework.kafka:spring-kafka:3.0.13">
+    <archive path="D:/File/Java/repository/org/springframework/kafka/spring-kafka/3.0.13/spring-kafka-3.0.13.jar" />
   </library>
-  <library name="Maven: org.apache.hbase:hbase-hadoop2-compat:2.1.5">
-    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-hadoop2-compat/2.1.5/hbase-hadoop2-compat-2.1.5.jar" />
+  <library name="Maven: io.swagger:swagger-models:1.5.20">
+    <archive path="D:/File/Java/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20.jar" />
   </library>
-  <library name="Maven: io.projectreactor.netty:reactor-netty-http:1.1.14">
-    <archive path="D:/File/Java/repository/io/projectreactor/netty/reactor-netty-http/1.1.14/reactor-netty-http-1.1.14.jar" />
+  <library name="Maven: com.baomidou:mybatis-plus-annotation:3.5.3.1">
+    <archive path="D:/File/Java/repository/com/baomidou/mybatis-plus-annotation/3.5.3.1/mybatis-plus-annotation-3.5.3.1.jar" />
+  </library>
+  <library name="Maven: junit:junit:3.8.1">
+    <archive path="D:/File/Java/repository/junit/junit/3.8.1/junit-3.8.1.jar" />
+  </library>
+  <library name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:4.0.4">
+    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-openfeign-core/4.0.4/spring-cloud-openfeign-core-4.0.4.jar" />
+  </library>
+  <library name="Maven: org.bouncycastle:bcprov-jdk18on:1.73">
+    <archive path="D:/File/Java/repository/org/bouncycastle/bcprov-jdk18on/1.73/bcprov-jdk18on-1.73.jar" />
+  </library>
+  <library name="Maven: com.google.protobuf:protobuf-java:2.5.0">
+    <archive path="D:/File/Java/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar" />
+  </library>
+  <library name="Maven: org.apache.curator:curator-client:2.7.1">
+    <archive path="D:/File/Java/repository/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar" />
+  </library>
+  <library name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1">
+    <archive path="D:/File/Java/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-swagger2:2.9.2">
+    <archive path="D:/File/Java/repository/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2.jar" />
+  </library>
+  <library name="Maven: org.checkerframework:checker-qual:3.5.0">
+    <archive path="D:/File/Java/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar" />
+  </library>
+  <library name="Maven: org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0">
+    <archive path="D:/File/Java/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.20.0/log4j-slf4j2-impl-2.20.0.jar" />
+  </library>
+  <library name="Maven: io.reactivex.rxjava3:rxjava:3.1.8">
+    <archive path="D:/File/Java/repository/io/reactivex/rxjava3/rxjava/3.1.8/rxjava-3.1.8.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-schema:2.9.2">
+    <archive path="D:/File/Java/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-actuator:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-actuator/3.1.7/spring-boot-starter-actuator-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.apache.hbase:hbase-protocol:2.1.5">
+    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-protocol/2.1.5/hbase-protocol-2.1.5.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpclient:4.5.13">
+    <archive path="D:/File/Java/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-pool2:2.11.1">
+    <archive path="D:/File/Java/repository/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar" />
+  </library>
+  <library name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22">
+    <archive path="D:/File/Java/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar" />
+  </library>
+  <library name="Maven: commons-logging:commons-logging:1.2">
+    <archive path="D:/File/Java/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" />
+  </library>
+  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-core:10.1.17">
+    <archive path="D:/File/Java/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.17/tomcat-embed-core-10.1.17.jar" />
+  </library>
+  <library name="Maven: io.projectreactor.netty:reactor-netty-core:1.1.14">
+    <archive path="D:/File/Java/repository/io/projectreactor/netty/reactor-netty-core/1.1.14/reactor-netty-core-1.1.14.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-spring-web:2.9.2">
+    <archive path="D:/File/Java/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar" />
+  </library>
+  <library name="Maven: org.xerial.snappy:snappy-java:1.1.8.4">
+    <archive path="D:/File/Java/repository/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar" />
+  </library>
+  <library name="Maven: com.github.jai-imageio:jai-imageio-core:1.4.0">
+    <archive path="D:/File/Java/repository/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.jar" />
+  </library>
+  <library name="Maven: com.github.spullara.mustache.java:compiler:0.9.3">
+    <archive path="D:/File/Java/repository/com/github/spullara/mustache/java/compiler/0.9.3/compiler-0.9.3.jar" />
+  </library>
+  <library name="Maven: xmlenc:xmlenc:0.52">
+    <archive path="D:/File/Java/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar" />
+  </library>
+  <library name="Maven: com.aliyun:aliyun-java-sdk-green:3.0.0">
+    <archive path="D:/File/Java/repository/com/aliyun/aliyun-java-sdk-green/3.0.0/aliyun-java-sdk-green-3.0.0.jar" />
   </library>
   <library name="Maven: org.springframework:spring-beans:6.0.15">
     <archive path="D:/File/Java/repository/org/springframework/spring-beans/6.0.15/spring-beans-6.0.15.jar" />
   </library>
+  <library name="Maven: io.netty:netty-codec-socks:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-codec-socks/4.1.104.Final/netty-codec-socks-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.3">
+    <archive path="D:/File/Java/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.3/jackson-datatype-jdk8-2.15.3.jar" />
+  </library>
+  <library name="Maven: org.jsoup:jsoup:1.13.1">
+    <archive path="D:/File/Java/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar" />
+  </library>
+  <library name="Maven: org.springframework.data:spring-data-keyvalue:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/data/spring-data-keyvalue/3.1.7/spring-data-keyvalue-3.1.7.jar" />
+  </library>
+  <library name="Maven: io.minio:minio:8.4.3">
+    <archive path="D:/File/Java/repository/io/minio/minio/8.4.3/minio-8.4.3.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-resolver:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-resolver/4.1.104.Final/netty-resolver-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.3">
+    <archive path="D:/File/Java/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.3/jackson-dataformat-yaml-2.15.3.jar" />
+  </library>
+  <library name="Maven: org.apache.pdfbox:jbig2-imageio:3.0.1">
+    <archive path="D:/File/Java/repository/org/apache/pdfbox/jbig2-imageio/3.0.1/jbig2-imageio-3.0.1.jar" />
+  </library>
+  <library name="Maven: com.thoughtworks.paranamer:paranamer:2.3">
+    <archive path="D:/File/Java/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar" />
+  </library>
+  <library name="Maven: org.springframework.data:spring-data-redis:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/data/spring-data-redis/3.1.7/spring-data-redis-3.1.7.jar" />
+  </library>
+  <library name="Maven: com.aliyun:aliyun-java-sdk-core:4.5.10">
+    <archive path="D:/File/Java/repository/com/aliyun/aliyun-java-sdk-core/4.5.10/aliyun-java-sdk-core-4.5.10.jar" />
+  </library>
+  <library name="Maven: org.jodd:jodd-core:5.1.6">
+    <archive path="D:/File/Java/repository/org/jodd/jodd-core/5.1.6/jodd-core-5.1.6.jar" />
+  </library>
+  <library name="Maven: org.bouncycastle:bcutil-jdk18on:1.73">
+    <archive path="D:/File/Java/repository/org/bouncycastle/bcutil-jdk18on/1.73/bcutil-jdk18on-1.73.jar" />
+  </library>
+  <library name="Maven: commons-io:commons-io:2.11.0">
+    <archive path="D:/File/Java/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-webflux:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-webflux/3.1.7/spring-boot-starter-webflux-3.1.7.jar" />
+  </library>
+  <library name="Maven: io.micrometer:micrometer-commons:1.11.7">
+    <archive path="D:/File/Java/repository/io/micrometer/micrometer-commons/1.11.7/micrometer-commons-1.11.7.jar" />
+  </library>
+  <library name="Maven: org.apache.htrace:htrace-core:3.1.0-incubating">
+    <archive path="D:/File/Java/repository/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating.jar" />
+  </library>
+  <library name="Maven: org.apache.kafka:kafka-streams:3.4.1">
+    <archive path="D:/File/Java/repository/org/apache/kafka/kafka-streams/3.4.1/kafka-streams-3.4.1.jar" />
+  </library>
+  <library name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22">
+    <archive path="D:/File/Java/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.22/kotlin-stdlib-common-1.8.22.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.3.7.RELEASE">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-data-redis/2.3.7.RELEASE/spring-boot-starter-data-redis-2.3.7.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.apache.hbase:hbase-common:2.1.5">
+    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-common/2.1.5/hbase-common-2.1.5.jar" />
+  </library>
+  <library name="Maven: org.apache.logging.log4j:log4j-api:2.20.0">
+    <archive path="D:/File/Java/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.cloud:spring-cloud-starter-loadbalancer:4.0.4">
+    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.0.4/spring-cloud-starter-loadbalancer-4.0.4.jar" />
+  </library>
+  <library name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22">
+    <archive path="D:/File/Java/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar" />
+  </library>
+  <library name="Maven: com.alibaba.nacos:nacos-client:2.2.4">
+    <archive path="D:/File/Java/repository/com/alibaba/nacos/nacos-client/2.2.4/nacos-client-2.2.4.jar" />
+  </library>
+  <library name="Maven: commons-beanutils:commons-beanutils:1.9.3">
+    <archive path="D:/File/Java/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar" />
+  </library>
+  <library name="Maven: org.jacoco:org.jacoco.agent:runtime:0.8.5">
+    <archive path="D:/File/Java/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.5">
+    <archive path="D:/File/Java/repository/org/apache/httpcomponents/httpasyncclient/4.1.5/httpasyncclient-4.1.5.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-swagger-common:2.9.2">
+    <archive path="D:/File/Java/repository/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2.jar" />
+  </library>
+  <library name="Maven: com.squareup.okhttp3:okhttp:4.10.0">
+    <archive path="D:/File/Java/repository/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-compress:1.21">
+    <archive path="D:/File/Java/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar" />
+  </library>
+  <library name="Maven: org.mybatis:mybatis:3.5.1">
+    <archive path="D:/File/Java/repository/org/mybatis/mybatis/3.5.1/mybatis-3.5.1.jar" />
+  </library>
+  <library name="Maven: org.apache.pdfbox:pdfbox-tools:2.0.11">
+    <archive path="D:/File/Java/repository/org/apache/pdfbox/pdfbox-tools/2.0.11/pdfbox-tools-2.0.11.jar" />
+  </library>
+  <library name="Maven: io.github.openfeign:feign-core:12.4">
+    <archive path="D:/File/Java/repository/io/github/openfeign/feign-core/12.4/feign-core-12.4.jar" />
+  </library>
+  <library name="Maven: net.java.dev.jna:jna:4.1.0">
+    <archive path="D:/File/Java/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar" />
+  </library>
+  <library name="Maven: io.prometheus:simpleclient_tracer_otel:0.16.0">
+    <archive path="D:/File/Java/repository/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar" />
+  </library>
+  <library name="Maven: org.apache.pdfbox:fontbox:2.0.11">
+    <archive path="D:/File/Java/repository/org/apache/pdfbox/fontbox/2.0.11/fontbox-2.0.11.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-resolver-dns-classes-macos:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-resolver-dns-classes-macos/4.1.104.Final/netty-resolver-dns-classes-macos-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: org.springframework.security:spring-security-crypto:6.1.6">
+    <archive path="D:/File/Java/repository/org/springframework/security/spring-security-crypto/6.1.6/spring-security-crypto-6.1.6.jar" />
+  </library>
+  <library name="Maven: io.protostuff:protostuff-core:1.7.2">
+    <archive path="D:/File/Java/repository/io/protostuff/protostuff-core/1.7.2/protostuff-core-1.7.2.jar" />
+  </library>
+  <library name="Maven: org.apache.curator:curator-framework:5.1.0">
+    <archive path="D:/File/Java/repository/org/apache/curator/curator-framework/5.1.0/curator-framework-5.1.0.jar" />
+  </library>
+  <library name="Maven: org.redisson:redisson-spring-boot-starter:3.21.3">
+    <archive path="D:/File/Java/repository/org/redisson/redisson-spring-boot-starter/3.21.3/redisson-spring-boot-starter-3.21.3.jar" />
+  </library>
+  <library name="Maven: com.github.xiaoymin:knife4j-spring:2.0.9">
+    <archive path="D:/File/Java/repository/com/github/xiaoymin/knife4j-spring/2.0.9/knife4j-spring-2.0.9.jar" />
+  </library>
+  <library name="Maven: org.apache.hbase:hbase-protocol-shaded:2.1.5">
+    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-protocol-shaded/2.1.5/hbase-protocol-shaded-2.1.5.jar" />
+  </library>
+  <library name="Maven: org.springframework.cloud:spring-cloud-starter:4.0.4">
+    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-starter/4.0.4/spring-cloud-starter-4.0.4.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-compress:1.4.1">
+    <archive path="D:/File/Java/repository/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar" />
+  </library>
+  <library name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.2">
+    <archive path="D:/File/Java/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-swagger-ui:2.9.2">
+    <archive path="D:/File/Java/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar" />
+  </library>
+  <library name="Maven: org.springframework.cloud:spring-cloud-context:4.0.4">
+    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-context/4.0.4/spring-cloud-context-4.0.4.jar" />
+  </library>
+  <library name="Maven: net.coobird:thumbnailator:0.4.8">
+    <archive path="D:/File/Java/repository/net/coobird/thumbnailator/0.4.8/thumbnailator-0.4.8.jar" />
+  </library>
+  <library name="Maven: commons-beanutils:commons-beanutils-core:1.8.0">
+    <archive path="D:/File/Java/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar" />
+  </library>
+  <library name="Maven: org.bouncycastle:bcpkix-jdk18on:1.73">
+    <archive path="D:/File/Java/repository/org/bouncycastle/bcpkix-jdk18on/1.73/bcpkix-jdk18on-1.73.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-codec-dns:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-codec-dns/4.1.104.Final/netty-codec-dns-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:10.1.17">
+    <archive path="D:/File/Java/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.17/tomcat-embed-websocket-10.1.17.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.15.3">
+    <archive path="D:/File/Java/repository/com/fasterxml/jackson/core/jackson-core/2.15.3/jackson-core-2.15.3.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-bean-validators:2.10.5">
+    <archive path="D:/File/Java/repository/io/springfox/springfox-bean-validators/2.10.5/springfox-bean-validators-2.10.5.jar" />
+  </library>
+  <library name="Maven: org.redisson:redisson-spring-data-30:3.21.3">
+    <archive path="D:/File/Java/repository/org/redisson/redisson-spring-data-30/3.21.3/redisson-spring-data-30-3.21.3.jar" />
+  </library>
+  <library name="Maven: org.projectlombok:lombok:1.18.30">
+    <archive path="D:/File/Java/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch:elasticsearch:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/elasticsearch/7.4.0/elasticsearch-7.4.0.jar" />
+  </library>
+  <library name="Maven: commons-codec:commons-codec:1.15">
+    <archive path="D:/File/Java/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar" />
+  </library>
+  <library name="Maven: org.apache.hbase:hbase-metrics:2.1.5">
+    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-metrics/2.1.5/hbase-metrics-2.1.5.jar" />
+  </library>
+  <library name="Maven: org.apache.logging.log4j:log4j-core:2.20.0">
+    <archive path="D:/File/Java/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar" />
+  </library>
+  <library name="Maven: org.ini4j:ini4j:0.5.4">
+    <archive path="D:/File/Java/repository/org/ini4j/ini4j/0.5.4/ini4j-0.5.4.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch.plugin:rank-eval-client:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/plugin/rank-eval-client/7.4.0/rank-eval-client-7.4.0.jar" />
+  </library>
+  <library name="Maven: com.alibaba.nacos:nacos-encryption-plugin:2.2.4">
+    <archive path="D:/File/Java/repository/com/alibaba/nacos/nacos-encryption-plugin/2.2.4/nacos-encryption-plugin-2.2.4.jar" />
+  </library>
+  <library name="Maven: org.reactivestreams:reactive-streams:1.0.4">
+    <archive path="D:/File/Java/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" />
+  </library>
+  <library name="Maven: org.tukaani:xz:1.0">
+    <archive path="D:/File/Java/repository/org/tukaani/xz/1.0/xz-1.0.jar" />
+  </library>
+  <library name="Maven: io.prometheus:simpleclient_tracer_otel_agent:0.16.0">
+    <archive path="D:/File/Java/repository/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar" />
+  </library>
+  <library name="Maven: com.github.xiaoymin:knife4j-spring-boot-autoconfigure:2.0.9">
+    <archive path="D:/File/Java/repository/com/github/xiaoymin/knife4j-spring-boot-autoconfigure/2.0.9/knife4j-spring-boot-autoconfigure-2.0.9.jar" />
+  </library>
+  <library name="Maven: junit:junit:4.13.2">
+    <archive path="D:/File/Java/repository/junit/junit/4.13.2/junit-4.13.2.jar" />
+  </library>
+  <library name="Maven: io.github.openfeign:feign-slf4j:12.4">
+    <archive path="D:/File/Java/repository/io/github/openfeign/feign-slf4j/12.4/feign-slf4j-12.4.jar" />
+  </library>
+  <library name="Maven: com.sun.istack:istack-commons-runtime:4.1.2">
+    <archive path="D:/File/Java/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar" />
+  </library>
+  <library name="Maven: org.apache.zookeeper:zookeeper:3.4.10">
+    <archive path="D:/File/Java/repository/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10.jar" />
+  </library>
+  <library name="Maven: com.esotericsoftware:minlog:1.3.1">
+    <archive path="D:/File/Java/repository/com/esotericsoftware/minlog/1.3.1/minlog-1.3.1.jar" />
+  </library>
+  <library name="Maven: commons-httpclient:commons-httpclient:3.1">
+    <archive path="D:/File/Java/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar" />
+  </library>
+  <library name="Maven: org.springframework.security:spring-security-rsa:1.0.12.RELEASE">
+    <archive path="D:/File/Java/repository/org/springframework/security/spring-security-rsa/1.0.12.RELEASE/spring-security-rsa-1.0.12.RELEASE.jar" />
+  </library>
+  <library name="Maven: mysql:mysql-connector-java:8.0.27">
+    <archive path="D:/File/Java/repository/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar" />
+  </library>
+  <library name="Maven: org.slf4j:jul-to-slf4j:2.0.9">
+    <archive path="D:/File/Java/repository/org/slf4j/jul-to-slf4j/2.0.9/jul-to-slf4j-2.0.9.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-resolver-dns-native-macos/4.1.104.Final/netty-resolver-dns-native-macos-4.1.104.Final-osx-x86_64.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-oxm:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-oxm/6.0.15/spring-oxm-6.0.15.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-core:2.9.2">
+    <archive path="D:/File/Java/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar" />
+  </library>
+  <library name="Maven: org.jboss.logging:jboss-logging:3.5.3.Final">
+    <archive path="D:/File/Java/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar" />
+  </library>
+  <library name="Maven: org.javassist:javassist:3.21.0-GA">
+    <archive path="D:/File/Java/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar" />
+  </library>
+  <library name="Maven: org.apache.directory.server:apacheds-kerberos-codec:2.0.0-M15">
+    <archive path="D:/File/Java/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar" />
+  </library>
+  <library name="Maven: com.zaxxer:HikariCP:5.0.1">
+    <archive path="D:/File/Java/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar" />
+  </library>
+  <library name="Maven: org.springframework.cloud:spring-cloud-gateway-server:4.0.7">
+    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-gateway-server/4.0.7/spring-cloud-gateway-server-4.0.7.jar" />
+  </library>
+  <library name="Maven: org.glassfish.jaxb:txw2:4.0.4">
+    <archive path="D:/File/Java/repository/org/glassfish/jaxb/txw2/4.0.4/txw2-4.0.4.jar" />
+  </library>
+  <library name="Maven: org.apache.hadoop:hadoop-auth:2.7.7">
+    <archive path="D:/File/Java/repository/org/apache/hadoop/hadoop-auth/2.7.7/hadoop-auth-2.7.7.jar" />
+  </library>
+  <library name="Maven: io.jsonwebtoken:jjwt:0.9.1">
+    <archive path="D:/File/Java/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-webmvc:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-webmvc/6.0.15/spring-webmvc-6.0.15.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-validation:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-validation/3.1.7/spring-boot-starter-validation-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-cache:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-cache/3.1.7/spring-boot-starter-cache-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.apache.hbase:hbase-client:2.1.5">
+    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-client/2.1.5/hbase-client-2.1.5.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-codec-http2:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-codec-http2/4.1.104.Final/netty-codec-http2-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.15.3">
+    <archive path="D:/File/Java/repository/com/fasterxml/jackson/core/jackson-databind/2.15.3/jackson-databind-2.15.3.jar" />
+  </library>
+  <library name="Maven: org.apache.pdfbox:pdfbox-debugger:2.0.11">
+    <archive path="D:/File/Java/repository/org/apache/pdfbox/pdfbox-debugger/2.0.11/pdfbox-debugger-2.0.11.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-log4j2:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-log4j2/3.1.7/spring-boot-starter-log4j2-3.1.7.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-spi:2.9.2">
+    <archive path="D:/File/Java/repository/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2.jar" />
+  </library>
+  <library name="Maven: io.swagger:swagger-annotations:1.5.20">
+    <archive path="D:/File/Java/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar" />
+  </library>
+  <library name="Maven: org.slf4j:jcl-over-slf4j:2.0.9">
+    <archive path="D:/File/Java/repository/org/slf4j/jcl-over-slf4j/2.0.9/jcl-over-slf4j-2.0.9.jar" />
+  </library>
+  <library name="Maven: org.hamcrest:hamcrest:2.2">
+    <archive path="D:/File/Java/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar" />
+  </library>
+  <library name="Maven: io.opentracing:opentracing-noop:0.33.0">
+    <archive path="D:/File/Java/repository/io/opentracing/opentracing-noop/0.33.0/opentracing-noop-0.33.0.jar" />
+  </library>
+  <library name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2022.0.0.0">
+    <archive path="D:/File/Java/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2022.0.0.0/spring-cloud-starter-alibaba-nacos-discovery-2022.0.0.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.cloud:spring-cloud-starter-openfeign:4.0.4">
+    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-starter-openfeign/4.0.4/spring-cloud-starter-openfeign-4.0.4.jar" />
+  </library>
+  <library name="Maven: net.bytebuddy:byte-buddy:1.14.10">
+    <archive path="D:/File/Java/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar" />
+  </library>
+  <library name="Maven: org.apache.hbase:hbase-hadoop2-compat:2.1.5">
+    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-hadoop2-compat/2.1.5/hbase-hadoop2-compat-2.1.5.jar" />
+  </library>
+  <library name="Maven: org.objenesis:objenesis:3.3">
+    <archive path="D:/File/Java/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar" />
+  </library>
+  <library name="Maven: com.carrotsearch.thirdparty:simple-xml-safe:2.7.1">
+    <archive path="D:/File/Java/repository/com/carrotsearch/thirdparty/simple-xml-safe/2.7.1/simple-xml-safe-2.7.1.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpclient:4.5.12">
+    <archive path="D:/File/Java/repository/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-expression:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-expression/6.0.15/spring-expression-6.0.15.jar" />
+  </library>
+  <library name="Maven: com.google.errorprone:error_prone_annotations:2.3.4">
+    <archive path="D:/File/Java/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar" />
+  </library>
+  <library name="Maven: io.prometheus:simpleclient:0.16.0">
+    <archive path="D:/File/Java/repository/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar" />
+  </library>
+  <library name="Maven: org.jboss.marshalling:jboss-marshalling:2.0.11.Final">
+    <archive path="D:/File/Java/repository/org/jboss/marshalling/jboss-marshalling/2.0.11.Final/jboss-marshalling-2.0.11.Final.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-spring-webmvc:2.10.5">
+    <archive path="D:/File/Java/repository/io/springfox/springfox-spring-webmvc/2.10.5/springfox-spring-webmvc-2.10.5.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-handler-proxy:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-handler-proxy/4.1.104.Final/netty-handler-proxy-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-core:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-core/6.0.15/spring-core-6.0.15.jar" />
+  </library>
+  <library name="Maven: org.apache.hadoop:hadoop-annotations:2.7.7">
+    <archive path="D:/File/Java/repository/org/apache/hadoop/hadoop-annotations/2.7.7/hadoop-annotations-2.7.7.jar" />
+  </library>
+  <library name="Maven: com.fasterxml:classmate:1.5.1">
+    <archive path="D:/File/Java/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar" />
+  </library>
+  <library name="Maven: org.mybatis:mybatis-spring:3.0.3">
+    <archive path="D:/File/Java/repository/org/mybatis/mybatis-spring/3.0.3/mybatis-spring-3.0.3.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-transport-native-unix-common:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-transport-native-unix-common/4.1.104.Final/netty-transport-native-unix-common-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: io.github.openfeign.form:feign-form-spring:3.8.0">
+    <archive path="D:/File/Java/repository/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.jar" />
+  </library>
+  <library name="Maven: org.apache.hbase.thirdparty:hbase-shaded-miscellaneous:2.1.0">
+    <archive path="D:/File/Java/repository/org/apache/hbase/thirdparty/hbase-shaded-miscellaneous/2.1.0/hbase-shaded-miscellaneous-2.1.0.jar" />
+  </library>
+  <library name="Maven: org.apache.pdfbox:pdfbox:2.0.11">
+    <archive path="D:/File/Java/repository/org/apache/pdfbox/pdfbox/2.0.11/pdfbox-2.0.11.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-math3:3.1.1">
+    <archive path="D:/File/Java/repository/org/apache/commons/commons-math3/3.1.1/commons-math3-3.1.1.jar" />
+  </library>
+  <library name="Maven: com.github.xiaoymin:knife4j-core:2.0.9">
+    <archive path="D:/File/Java/repository/com/github/xiaoymin/knife4j-core/2.0.9/knife4j-core-2.0.9.jar" />
+  </library>
+  <library name="Maven: org.apache.xmlgraphics:xmlgraphics-commons:1.4">
+    <archive path="D:/File/Java/repository/org/apache/xmlgraphics/xmlgraphics-commons/1.4/xmlgraphics-commons-1.4.jar" />
+  </library>
+  <library name="Maven: org.reflections:reflections:0.9.11">
+    <archive path="D:/File/Java/repository/org/reflections/reflections/0.9.11/reflections-0.9.11.jar" />
+  </library>
+  <library name="Maven: com.baomidou:mybatis-plus-extension:3.5.3.1">
+    <archive path="D:/File/Java/repository/com/baomidou/mybatis-plus-extension/3.5.3.1/mybatis-plus-extension-3.5.3.1.jar" />
+  </library>
+  <library name="Maven: org.jruby.joni:joni:2.1.11">
+    <archive path="D:/File/Java/repository/org/jruby/joni/joni/2.1.11/joni-2.1.11.jar" />
+  </library>
   <library name="Maven: io.dropwizard.metrics:metrics-core:4.2.23">
     <archive path="D:/File/Java/repository/io/dropwizard/metrics/metrics-core/4.2.23/metrics-core-4.2.23.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot/3.1.7/spring-boot-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.mortbay.jetty:jetty-sslengine:6.1.26">
+    <archive path="D:/File/Java/repository/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.jar" />
+  </library>
+  <library name="Maven: io.lettuce:lettuce-core:6.2.7.RELEASE">
+    <archive path="D:/File/Java/repository/io/lettuce/lettuce-core/6.2.7.RELEASE/lettuce-core-6.2.7.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.jruby.jcodings:jcodings:1.0.18">
+    <archive path="D:/File/Java/repository/org/jruby/jcodings/jcodings/1.0.18/jcodings-1.0.18.jar" />
+  </library>
+  <library name="Maven: org.apache.hbase:hbase-metrics-api:2.1.5">
+    <archive path="D:/File/Java/repository/org/apache/hbase/hbase-metrics-api/2.1.5/hbase-metrics-api-2.1.5.jar" />
+  </library>
+  <library name="Maven: org.apache.directory.api:api-util:1.0.0-M20">
+    <archive path="D:/File/Java/repository/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20.jar" />
+  </library>
+  <library name="Maven: org.apache.yetus:audience-annotations:0.5.0">
+    <archive path="D:/File/Java/repository/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE">
+    <archive path="D:/File/Java/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: io.protostuff:protostuff-collectionschema:1.6.0">
+    <archive path="D:/File/Java/repository/io/protostuff/protostuff-collectionschema/1.6.0/protostuff-collectionschema-1.6.0.jar" />
+  </library>
+  <library name="Maven: org.bouncycastle:bcprov-jdk15on:1.69">
+    <archive path="D:/File/Java/repository/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.jar" />
+  </library>
+  <library name="Maven: com.alibaba.nacos:nacos-auth-plugin:2.2.4">
+    <archive path="D:/File/Java/repository/com/alibaba/nacos/nacos-auth-plugin/2.2.4/nacos-auth-plugin-2.2.4.jar" />
+  </library>
+  <library name="Maven: com.google.code.gson:gson:2.10.1">
+    <archive path="D:/File/Java/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-actuator:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-actuator/3.1.7/spring-boot-actuator-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.projectlombok:lombok:1.18.24">
+    <archive path="D:/File/Java/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-tx:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-tx/6.0.15/spring-tx-6.0.15.jar" />
+  </library>
+  <library name="Maven: org.hamcrest:hamcrest-core:2.2">
+    <archive path="D:/File/Java/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar" />
+  </library>
+  <library name="Maven: org.lz4:lz4-java:1.8.0">
+    <archive path="D:/File/Java/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar" />
+  </library>
+  <library name="Maven: com.esotericsoftware:reflectasm:1.11.9">
+    <archive path="D:/File/Java/repository/com/esotericsoftware/reflectasm/1.11.9/reflectasm-1.11.9.jar" />
+  </library>
+  <library name="Maven: org.jvnet.staxex:stax-ex:2.1.0">
+    <archive path="D:/File/Java/repository/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0.jar" />
+  </library>
+  <library name="Maven: org.apache.kafka:kafka-clients:3.4.1">
+    <archive path="D:/File/Java/repository/org/apache/kafka/kafka-clients/3.4.1/kafka-clients-3.4.1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jcl:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-jcl/6.0.15/spring-jcl-6.0.15.jar" />
+  </library>
+  <library name="Maven: org.jboss.marshalling:jboss-marshalling-river:2.0.11.Final">
+    <archive path="D:/File/Java/repository/org/jboss/marshalling/jboss-marshalling-river/2.0.11.Final/jboss-marshalling-river-2.0.11.Final.jar" />
+  </library>
+  <library name="Maven: io.prometheus:simpleclient_tracer_common:0.16.0">
+    <archive path="D:/File/Java/repository/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar" />
+  </library>
+  <library name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava">
+    <archive path="D:/File/Java/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-handler:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-handler/4.1.104.Final/netty-handler-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: io.protostuff:protostuff-api:1.7.2">
+    <archive path="D:/File/Java/repository/io/protostuff/protostuff-api/1.7.2/protostuff-api-1.7.2.jar" />
+  </library>
+  <library name="Maven: io.github.openfeign.form:feign-form:3.8.0">
+    <archive path="D:/File/Java/repository/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar" />
+  </library>
+  <library name="Maven: commons-configuration:commons-configuration:1.6">
+    <archive path="D:/File/Java/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar" />
+  </library>
+  <library name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.8.22">
+    <archive path="D:/File/Java/repository/org/jetbrains/kotlin/kotlin-stdlib/1.8.22/kotlin-stdlib-1.8.22.jar" />
   </library>
   <library name="Maven: io.netty:netty-transport:4.1.104.Final">
     <archive path="D:/File/Java/repository/io/netty/netty-transport/4.1.104.Final/netty-transport-4.1.104.Final.jar" />
   </library>
+  <library name="Maven: ch.qos.logback:logback-classic:1.4.14">
+    <archive path="D:/File/Java/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-aop:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-aop/3.1.7/spring-boot-starter-aop-3.1.7.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.15.3">
+    <archive path="D:/File/Java/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.15.3/jackson-dataformat-smile-2.15.3.jar" />
+  </library>
+  <library name="Maven: org.springframework.cloud:spring-cloud-commons:4.0.4">
+    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-commons/4.0.4/spring-cloud-commons-4.0.4.jar" />
+  </library>
+  <library name="Maven: net.sourceforge.tess4j:tess4j:4.1.1">
+    <archive path="D:/File/Java/repository/net/sourceforge/tess4j/tess4j/4.1.1/tess4j-4.1.1.jar" />
+  </library>
+  <library name="Maven: com.google.guava:failureaccess:1.0.1">
+    <archive path="D:/File/Java/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-web:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-web/3.1.7/spring-boot-starter-web-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-lang3:3.12.0">
+    <archive path="D:/File/Java/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-reactor-netty:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-reactor-netty/3.1.7/spring-boot-starter-reactor-netty-3.1.7.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-buffer:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-buffer/4.1.104.Final/netty-buffer-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.15.3">
+    <archive path="D:/File/Java/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar" />
+  </library>
+  <library name="Maven: com.github.xiaoymin:knife4j-spring-boot-starter:2.0.9">
+    <archive path="D:/File/Java/repository/com/github/xiaoymin/knife4j-spring-boot-starter/2.0.9/knife4j-spring-boot-starter-2.0.9.jar" />
+  </library>
+  <library name="Maven: org.springframework.data:spring-data-commons:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/data/spring-data-commons/3.1.7/spring-data-commons-3.1.7.jar" />
+  </library>
+  <library name="Maven: jakarta.validation:jakarta.validation-api:3.0.2">
+    <archive path="D:/File/Java/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar" />
+  </library>
+  <library name="Maven: com.github.jsqlparser:jsqlparser:4.4">
+    <archive path="D:/File/Java/repository/com/github/jsqlparser/jsqlparser/4.4/jsqlparser-4.4.jar" />
+  </library>
+  <library name="Maven: org.apache.hbase.thirdparty:hbase-shaded-netty:2.1.0">
+    <archive path="D:/File/Java/repository/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/hbase-shaded-netty-2.1.0.jar" />
+  </library>
+  <library name="Maven: org.apache.hadoop:hadoop-common:2.7.7">
+    <archive path="D:/File/Java/repository/org/apache/hadoop/hadoop-common/2.7.7/hadoop-common-2.7.7.jar" />
+  </library>
+  <library name="Maven: com.google.protobuf:protobuf-java:3.11.4">
+    <archive path="D:/File/Java/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar" />
+  </library>
+  <library name="Maven: commons-fileupload:commons-fileupload:1.5">
+    <archive path="D:/File/Java/repository/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar" />
+  </library>
+  <library name="Maven: org.jetbrains:annotations:13.0">
+    <archive path="D:/File/Java/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.1.7/spring-boot-actuator-autoconfigure-3.1.7.jar" />
+  </library>
+  <library name="Maven: com.alibaba.cloud:spring-cloud-alibaba-commons:2022.0.0.0">
+    <archive path="D:/File/Java/repository/com/alibaba/cloud/spring-cloud-alibaba-commons/2022.0.0.0/spring-cloud-alibaba-commons-2022.0.0.0.jar" />
+  </library>
+  <library name="Maven: org.jboss:jboss-vfs:3.2.12.Final">
+    <archive path="D:/File/Java/repository/org/jboss/jboss-vfs/3.2.12.Final/jboss-vfs-3.2.12.Final.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.16">
+    <archive path="D:/File/Java/repository/org/apache/httpcomponents/httpcore-nio/4.4.16/httpcore-nio-4.4.16.jar" />
+  </library>
+  <library name="Maven: com.esotericsoftware:kryo:5.5.0">
+    <archive path="D:/File/Java/repository/com/esotericsoftware/kryo/5.5.0/kryo-5.5.0.jar" />
+  </library>
+  <library name="Maven: org.apache.curator:curator-recipes:5.1.0">
+    <archive path="D:/File/Java/repository/org/apache/curator/curator-recipes/5.1.0/curator-recipes-5.1.0.jar" />
+  </library>
+  <library name="Maven: io.projectreactor.netty:reactor-netty-http:1.1.14">
+    <archive path="D:/File/Java/repository/io/projectreactor/netty/reactor-netty-http/1.1.14/reactor-netty-http-1.1.14.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-web:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-web/6.0.15/spring-web-6.0.15.jar" />
+  </library>
+  <library name="Maven: joda-time:joda-time:2.10.5">
+    <archive path="D:/File/Java/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar" />
+  </library>
+  <library name="Maven: org.springframework.retry:spring-retry:2.0.5">
+    <archive path="D:/File/Java/repository/org/springframework/retry/spring-retry/2.0.5/spring-retry-2.0.5.jar" />
+  </library>
+  <library name="Maven: com.google.code.findbugs:jsr305:3.0.2">
+    <archive path="D:/File/Java/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-highlighter:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-highlighter/8.2.0/lucene-highlighter-8.2.0.jar" />
+  </library>
+  <library name="Maven: com.github.luben:zstd-jni:1.5.2-1">
+    <archive path="D:/File/Java/repository/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-codec:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-codec/4.1.104.Final/netty-codec-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: com.google.guava:guava:30.0-jre">
+    <archive path="D:/File/Java/repository/com/google/guava/guava/30.0-jre/guava-30.0-jre.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.3">
+    <archive path="D:/File/Java/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.3/jackson-datatype-jsr310-2.15.3.jar" />
+  </library>
+  <library name="Maven: org.mapstruct:mapstruct:1.2.0.Final">
+    <archive path="D:/File/Java/repository/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-configuration-processor:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-configuration-processor/3.1.7/spring-boot-configuration-processor-3.1.7.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-transport-classes-epoll:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-transport-classes-epoll/4.1.104.Final/netty-transport-classes-epoll-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE">
+    <archive path="D:/File/Java/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: javax.cache:cache-api:1.1.1">
+    <archive path="D:/File/Java/repository/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar" />
+  </library>
+  <library name="Maven: commons-net:commons-net:3.1">
+    <archive path="D:/File/Java/repository/commons-net/commons-net/3.1/commons-net-3.1.jar" />
+  </library>
+  <library name="Maven: org.apache.avro:avro:1.7.4">
+    <archive path="D:/File/Java/repository/org/apache/avro/avro/1.7.4/avro-1.7.4.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-test:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-test/3.1.7/spring-boot-test-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.springframework.cloud:spring-cloud-starter-bootstrap:4.0.4">
+    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-starter-bootstrap/4.0.4/spring-cloud-starter-bootstrap-4.0.4.jar" />
+  </library>
+  <library name="Maven: org.ghost4j:ghost4j:1.0.1">
+    <archive path="D:/File/Java/repository/org/ghost4j/ghost4j/1.0.1/ghost4j-1.0.1.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-misc:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-misc/8.2.0/lucene-misc-8.2.0.jar" />
+  </library>
+  <library name="Maven: org.slf4j:log4j-over-slf4j:2.0.9">
+    <archive path="D:/File/Java/repository/org/slf4j/log4j-over-slf4j/2.0.9/log4j-over-slf4j-2.0.9.jar" />
+  </library>
+  <library name="Maven: org.latencyutils:LatencyUtils:2.0.3">
+    <archive path="D:/File/Java/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar" />
+  </library>
   <library name="Maven: org.springframework.boot:spring-boot-starter:3.1.7">
     <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter/3.1.7/spring-boot-starter-3.1.7.jar" />
   </library>
-  <library name="Maven: org.apache.zookeeper:zookeeper:3.4.10">
-    <archive path="D:/File/Java/repository/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10.jar" />
+  <library name="Maven: com.github.xiaoymin:knife4j-annotations:2.0.9">
+    <archive path="D:/File/Java/repository/com/github/xiaoymin/knife4j-annotations/2.0.9/knife4j-annotations-2.0.9.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-json:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-json/3.1.7/spring-boot-starter-json-3.1.7.jar" />
+  </library>
+  <library name="Maven: com.github.xiaoymin:knife4j-spring-ui:2.0.9">
+    <archive path="D:/File/Java/repository/com/github/xiaoymin/knife4j-spring-ui/2.0.9/knife4j-spring-ui-2.0.9.jar" />
+  </library>
+  <library name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2">
+    <archive path="D:/File/Java/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar" />
+  </library>
+  <library name="Maven: org.jsoup:jsoup:1.10.2">
+    <archive path="D:/File/Java/repository/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.7/spring-boot-autoconfigure-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.apache.hbase.thirdparty:hbase-shaded-protobuf:2.1.0">
+    <archive path="D:/File/Java/repository/org/apache/hbase/thirdparty/hbase-shaded-protobuf/2.1.0/hbase-shaded-protobuf-2.1.0.jar" />
+  </library>
+  <library name="Maven: net.sourceforge.lept4j:lept4j:1.10.0">
+    <archive path="D:/File/Java/repository/net/sourceforge/lept4j/lept4j/1.10.0/lept4j-1.10.0.jar" />
+  </library>
+  <library name="Maven: commons-digester:commons-digester:1.8">
+    <archive path="D:/File/Java/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar" />
+  </library>
+  <library name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2022.0.0.0">
+    <archive path="D:/File/Java/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2022.0.0.0/spring-cloud-starter-alibaba-nacos-config-2022.0.0.0.jar" />
+  </library>
+  <library name="Maven: com.baomidou:mybatis-plus-boot-starter:3.5.3.1">
+    <archive path="D:/File/Java/repository/com/baomidou/mybatis-plus-boot-starter/3.5.3.1/mybatis-plus-boot-starter-3.5.3.1.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpcore:4.4.16">
+    <archive path="D:/File/Java/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar" />
+  </library>
+  <library name="Maven: commons-collections:commons-collections:3.2.2">
+    <archive path="D:/File/Java/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" />
+  </library>
+  <library name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13">
+    <archive path="D:/File/Java/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar" />
+  </library>
+  <library name="Maven: com.github.stephenc.findbugs:findbugs-annotations:1.3.9-1">
+    <archive path="D:/File/Java/repository/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.jar" />
+  </library>
+  <library name="Maven: io.projectreactor:reactor-core:3.5.13">
+    <archive path="D:/File/Java/repository/io/projectreactor/reactor-core/3.5.13/reactor-core-3.5.13.jar" />
+  </library>
+  <library name="Maven: com.squareup.okio:okio-jvm:3.0.0">
+    <archive path="D:/File/Java/repository/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-webflux:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-webflux/6.0.15/spring-webflux-6.0.15.jar" />
+  </library>
+  <library name="Maven: com.stoyanr:evictor:1.0.0">
+    <archive path="D:/File/Java/repository/com/stoyanr/evictor/1.0.0/evictor-1.0.0.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-context/6.0.15/spring-context-6.0.15.jar" />
+  </library>
+  <library name="Maven: ch.qos.logback:logback-core:1.4.14">
+    <archive path="D:/File/Java/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-messaging:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-messaging/6.0.15/spring-messaging-6.0.15.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-common:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-common/4.1.104.Final/netty-common-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.3">
+    <archive path="D:/File/Java/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.3/jackson-module-parameter-names-2.15.3.jar" />
+  </library>
+  <library name="Maven: org.rocksdb:rocksdbjni:7.1.2">
+    <archive path="D:/File/Java/repository/org/rocksdb/rocksdbjni/7.1.2/rocksdbjni-7.1.2.jar" />
+  </library>
+  <library name="Maven: com.github.tobato:fastdfs-client:1.27.2">
+    <archive path="D:/File/Java/repository/com/github/tobato/fastdfs-client/1.27.2/fastdfs-client-1.27.2.jar" />
+  </library>
+  <library name="Maven: com.google.j2objc:j2objc-annotations:1.3">
+    <archive path="D:/File/Java/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-transport-native-epoll/4.1.104.Final/netty-transport-native-epoll-4.1.104.Final-linux-x86_64.jar" />
+  </library>
+  <library name="Maven: org.hdrhistogram:HdrHistogram:2.1.12">
+    <archive path="D:/File/Java/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar" />
+  </library>
+  <library name="Maven: org.springframework.cloud:spring-cloud-starter-gateway:4.0.7">
+    <archive path="D:/File/Java/repository/org/springframework/cloud/spring-cloud-starter-gateway/4.0.7/spring-cloud-starter-gateway-4.0.7.jar" />
+  </library>
+  <library name="Maven: org.hibernate.validator:hibernate-validator:8.0.1.Final">
+    <archive path="D:/File/Java/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-jdbc:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-jdbc/3.1.7/spring-boot-starter-jdbc-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.jodd:jodd-bean:5.1.6">
+    <archive path="D:/File/Java/repository/org/jodd/jodd-bean/5.1.6/jodd-bean-5.1.6.jar" />
+  </library>
+  <library name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13">
+    <archive path="D:/File/Java/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context-support:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-context-support/6.0.15/spring-context-support-6.0.15.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-tomcat:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-tomcat/3.1.7/spring-boot-starter-tomcat-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-crypto:1.0.0">
+    <archive path="D:/File/Java/repository/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0.jar" />
+  </library>
+  <library name="Maven: io.micrometer:micrometer-observation:1.11.7">
+    <archive path="D:/File/Java/repository/io/micrometer/micrometer-observation/1.11.7/micrometer-observation-1.11.7.jar" />
+  </library>
+  <library name="Maven: org.apache.directory.api:api-asn1-api:1.0.0-M20">
+    <archive path="D:/File/Java/repository/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-data-redis:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-data-redis/3.1.7/spring-boot-starter-data-redis-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch:elasticsearch-geo:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/elasticsearch-geo/7.4.0/elasticsearch-geo-7.4.0.jar" />
+  </library>
+  <library name="Maven: org.apiguardian:apiguardian-api:1.1.2">
+    <archive path="D:/File/Java/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-suggest:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-suggest/8.2.0/lucene-suggest-8.2.0.jar" />
+  </library>
+  <library name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1">
+    <archive path="D:/File/Java/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch:elasticsearch-cli:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/elasticsearch-cli/7.4.0/elasticsearch-cli-7.4.0.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-transport-rxtx:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-transport-rxtx/4.1.104.Final/netty-transport-rxtx-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-spatial-extras:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-spatial-extras/8.2.0/lucene-spatial-extras-8.2.0.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch:elasticsearch-x-content:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/elasticsearch-x-content/7.4.0/elasticsearch-x-content-7.4.0.jar" />
+  </library>
+  <library name="Maven: org.skyscreamer:jsonassert:1.5.1">
+    <archive path="D:/File/Java/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpclient:4.5.8">
+    <archive path="D:/File/Java/repository/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-spatial:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-spatial/8.2.0/lucene-spatial-8.2.0.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch.client:elasticsearch-rest-high-level-client:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.4.0/elasticsearch-rest-high-level-client-7.4.0.jar" />
+  </library>
+  <library name="Maven: org.xmlunit:xmlunit-core:2.9.1">
+    <archive path="D:/File/Java/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-spatial3d:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-spatial3d/8.2.0/lucene-spatial3d-8.2.0.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch:elasticsearch-secure-sm:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/elasticsearch-secure-sm/7.4.0/elasticsearch-secure-sm-7.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-grouping:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-grouping/8.2.0/lucene-grouping-8.2.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-analyzers-common:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-analyzers-common/8.2.0/lucene-analyzers-common-8.2.0.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch.plugin:lang-mustache-client:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/plugin/lang-mustache-client/7.4.0/lang-mustache-client-7.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-queries:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-queries/8.2.0/lucene-queries-8.2.0.jar" />
+  </library>
+  <library name="Maven: org.hdrhistogram:HdrHistogram:2.1.9">
+    <archive path="D:/File/Java/repository/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.jar" />
+  </library>
+  <library name="Maven: com.carrotsearch:hppc:0.8.1">
+    <archive path="D:/File/Java/repository/com/carrotsearch/hppc/0.8.1/hppc-0.8.1.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch:jna:4.5.1">
+    <archive path="D:/File/Java/repository/org/elasticsearch/jna/4.5.1/jna-4.5.1.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch.client:elasticsearch-rest-client:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/client/elasticsearch-rest-client/7.4.0/elasticsearch-rest-client-7.4.0.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.9.9">
+    <archive path="D:/File/Java/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.9.9/jackson-dataformat-cbor-2.9.9.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-backward-codecs:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-backward-codecs/8.2.0/lucene-backward-codecs-8.2.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-memory:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-memory/8.2.0/lucene-memory-8.2.0.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch.plugin:parent-join-client:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/plugin/parent-join-client/7.4.0/parent-join-client-7.4.0.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch.plugin:mapper-extras:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/plugin/mapper-extras/7.4.0/mapper-extras-7.4.0.jar" />
+  </library>
+  <library name="Maven: org.assertj:assertj-core:3.24.2">
+    <archive path="D:/File/Java/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-queryparser:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-queryparser/8.2.0/lucene-queryparser-8.2.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-join:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-join/8.2.0/lucene-join-8.2.0.jar" />
+  </library>
+  <library name="Maven: com.tdunning:t-digest:3.2">
+    <archive path="D:/File/Java/repository/com/tdunning/t-digest/3.2/t-digest-3.2.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch.plugin:aggs-matrix-stats-client:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/plugin/aggs-matrix-stats-client/7.4.0/aggs-matrix-stats-client-7.4.0.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch:elasticsearch-core:7.4.0">
+    <archive path="D:/File/Java/repository/org/elasticsearch/elasticsearch-core/7.4.0/elasticsearch-core-7.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-sandbox:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-sandbox/8.2.0/lucene-sandbox-8.2.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-core:8.2.0">
+    <archive path="D:/File/Java/repository/org/apache/lucene/lucene-core/8.2.0/lucene-core-8.2.0.jar" />
+  </library>
+  <library name="Maven: net.sf.jopt-simple:jopt-simple:5.0.2">
+    <archive path="D:/File/Java/repository/net/sf/jopt-simple/jopt-simple/5.0.2/jopt-simple-5.0.2.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.7/spring-boot-test-autoconfigure-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.opentest4j:opentest4j:1.2.0">
+    <archive path="D:/File/Java/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-test:3.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-test/3.1.7/spring-boot-starter-test-3.1.7.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter-api:5.9.3">
+    <archive path="D:/File/Java/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-test:6.0.15">
+    <archive path="D:/File/Java/repository/org/springframework/spring-test/6.0.15/spring-test-6.0.15.jar" />
+  </library>
+  <library name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:4.0.1">
+    <archive path="D:/File/Java/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter-params:5.9.3">
+    <archive path="D:/File/Java/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar" />
+  </library>
+  <library name="Maven: com.jayway.jsonpath:json-path:2.8.0">
+    <archive path="D:/File/Java/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar" />
+  </library>
+  <library name="Maven: org.junit.platform:junit-platform-commons:1.9.3">
+    <archive path="D:/File/Java/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar" />
+  </library>
+  <library name="Maven: net.minidev:accessors-smart:2.4.11">
+    <archive path="D:/File/Java/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar" />
+  </library>
+  <library name="Maven: org.junit.platform:junit-platform-engine:1.9.3">
+    <archive path="D:/File/Java/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar" />
+  </library>
+  <library name="Maven: net.minidev:json-smart:2.4.11">
+    <archive path="D:/File/Java/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter-engine:5.9.3">
+    <archive path="D:/File/Java/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter:5.9.3">
+    <archive path="D:/File/Java/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar" />
+  </library>
+  <library name="Maven: net.bytebuddy:byte-buddy-agent:1.14.10">
+    <archive path="D:/File/Java/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar" />
+  </library>
+  <library name="Maven: org.mockito:mockito-junit-jupiter:5.3.1">
+    <archive path="D:/File/Java/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar" />
+  </library>
+  <library name="Maven: org.ow2.asm:asm:9.3">
+    <archive path="D:/File/Java/repository/org/ow2/asm/asm/9.3/asm-9.3.jar" />
+  </library>
+  <library name="Maven: org.mockito:mockito-core:5.3.1">
+    <archive path="D:/File/Java/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-transport-native-epoll:linux-aarch_64:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-transport-native-epoll/4.1.104.Final/netty-transport-native-epoll-4.1.104.Final-linux-aarch_64.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-transport-native-kqueue:osx-x86_64:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-transport-native-kqueue/4.1.104.Final/netty-transport-native-kqueue-4.1.104.Final-osx-x86_64.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-codec-haproxy:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-codec-haproxy/4.1.104.Final/netty-codec-haproxy-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-transport-native-kqueue:osx-aarch_64:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-transport-native-kqueue/4.1.104.Final/netty-transport-native-kqueue-4.1.104.Final-osx-aarch_64.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-all:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-all/4.1.104.Final/netty-all-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: org.codehaus.groovy:groovy:3.0.7">
+    <archive path="D:/File/Java/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-codec-mqtt:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-codec-mqtt/4.1.104.Final/netty-codec-mqtt-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-transport-native-epoll:linux-riscv64:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-transport-native-epoll/4.1.104.Final/netty-transport-native-epoll-4.1.104.Final-linux-riscv64.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-codec-stomp:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-codec-stomp/4.1.104.Final/netty-codec-stomp-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-codec-xml:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-codec-xml/4.1.104.Final/netty-codec-xml-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-transport-classes-kqueue:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-transport-classes-kqueue/4.1.104.Final/netty-transport-classes-kqueue-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-transport-udt:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-transport-udt/4.1.104.Final/netty-transport-udt-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-transport-sctp:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-transport-sctp/4.1.104.Final/netty-transport-sctp-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-handler-ssl-ocsp:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-handler-ssl-ocsp/4.1.104.Final/netty-handler-ssl-ocsp-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: joda-time:joda-time:2.10.3">
+    <archive path="D:/File/Java/repository/joda-time/joda-time/2.10.3/joda-time-2.10.3.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-codec-redis:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-codec-redis/4.1.104.Final/netty-codec-redis-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-codec-memcache:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-codec-memcache/4.1.104.Final/netty-codec-memcache-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-resolver-dns-native-macos:osx-aarch_64:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-resolver-dns-native-macos/4.1.104.Final/netty-resolver-dns-native-macos-4.1.104.Final-osx-aarch_64.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-codec-smtp:4.1.104.Final">
+    <archive path="D:/File/Java/repository/io/netty/netty-codec-smtp/4.1.104.Final/netty-codec-smtp-4.1.104.Final.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-data-mongodb:3.3.1">
+    <archive path="D:/File/Java/repository/org/springframework/boot/spring-boot-starter-data-mongodb/3.3.1/spring-boot-starter-data-mongodb-3.3.1.jar" />
+  </library>
+  <library name="Maven: org.mongodb:mongodb-driver-core:4.9.1">
+    <archive path="D:/File/Java/repository/org/mongodb/mongodb-driver-core/4.9.1/mongodb-driver-core-4.9.1.jar" />
+  </library>
+  <library name="Maven: org.mongodb:bson:4.9.1">
+    <archive path="D:/File/Java/repository/org/mongodb/bson/4.9.1/bson-4.9.1.jar" />
+  </library>
+  <library name="Maven: org.springframework.data:spring-data-mongodb:4.1.7">
+    <archive path="D:/File/Java/repository/org/springframework/data/spring-data-mongodb/4.1.7/spring-data-mongodb-4.1.7.jar" />
+  </library>
+  <library name="Maven: org.mongodb:bson-record-codec:4.9.1">
+    <archive path="D:/File/Java/repository/org/mongodb/bson-record-codec/4.9.1/bson-record-codec-4.9.1.jar" />
+  </library>
+  <library name="Maven: com.xuxueli:xxl-job-core:2.3.0">
+    <archive path="D:/File/Java/repository/com/xuxueli/xxl-job-core/2.3.0/xxl-job-core-2.3.0.jar" />
+  </library>
+  <library name="Maven: org.apache.tomcat:tomcat-annotations-api:10.1.17">
+    <archive path="D:/File/Java/repository/org/apache/tomcat/tomcat-annotations-api/10.1.17/tomcat-annotations-api-10.1.17.jar" />
+  </library>
+  <library name="Maven: com.google.guava:guava:32.1.2-jre">
+    <archive path="D:/File/Java/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar" />
+  </library>
+  <library name="Maven: org.checkerframework:checker-qual:3.33.0">
+    <archive path="D:/File/Java/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar" />
+  </library>
+  <library name="Maven: com.google.errorprone:error_prone_annotations:2.18.0">
+    <archive path="D:/File/Java/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar" />
+  </library>
+  <library name="Maven: com.google.j2objc:j2objc-annotations:2.8">
+    <archive path="D:/File/Java/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar" />
   </library>
 </eclipse-userlibraries>
 

@@ -1,6 +1,7 @@
 package com.hello.service.schedule.config;
 
 import org.apache.commons.lang.StringUtils;
+import org.elasticsearch.common.inject.Singleton;
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
 import org.redisson.config.Config;

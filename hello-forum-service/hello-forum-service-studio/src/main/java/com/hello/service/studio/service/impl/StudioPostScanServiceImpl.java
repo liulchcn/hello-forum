@@ -4,22 +4,21 @@ import com.alibaba.fastjson.JSONArray;
 import com.hello.common.exception.StudioPostScanException;
 import com.hello.common.result.Result;
 import com.hello.feign.api.post.IPostClient;
-import com.hello.model.enums.AppHttpCodeEnum;
 import com.hello.model.post.dtos.PostDTO;
 import com.hello.model.studio.constants.StudioPostConstants;
 import com.hello.model.studio.pojos.StudioChannel;
 import com.hello.model.studio.pojos.StudioPost;
 import com.hello.model.studio.pojos.StudioUser;
+import com.hello.service.studio.handler.scanHandler.ImagesScanHandler;
+import com.hello.service.studio.handler.scanHandler.TextScanHandler;
 import com.hello.service.studio.mapper.StudioChannelMapper;
 import com.hello.service.studio.mapper.StudioPostMapper;
 import com.hello.service.studio.mapper.StudioUserMapper;
 import com.hello.service.studio.service.StudioPostScanService;
-import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -42,21 +41,34 @@ public class StudioPostScanServiceImpl implements StudioPostScanService {
     @Autowired
     private IPostClient postClient;
 
+    private final TextScanHandler textScanHandler;
+    private final ImagesScanHandler imagesScanHandler;
+    public StudioPostScanServiceImpl(
+            TextScanHandler textScanHandler,
+            ImagesScanHandler imagesScanHandler) {
+        this.textScanHandler = textScanHandler;
+        this.imagesScanHandler = imagesScanHandler;
+        textScanHandler.setNext(imagesScanHandler);
+    }
     @Override
     @Async
     public void autoScanPosts(Integer id) {
-        sleep(100);
+//        sleep(100);
         log.info("将要被扫描的帖子的id：{}",id);
         StudioPost studioPost = studioPostsMapper.selectById(id);
         if(studioPost==null){
             throw new StudioPostScanException(StudioPostConstants.POST_TO_BE_SCANNED_NOT_FOUND);
         }
+
+        Map<String, Object> textAndImages = handleTextAndImages(studioPost);
         if(studioPost.getStatus().equals(StudioPost.Status.SUBMIT.getCode())){
-            Map<String, Object> textAndImages = handleTextAndImages(studioPost);
+
         }
         /**
          * TODO 设置敏感词等等的自动审核功能；
          */
+
+        textScanHandler.handle( textAndImages );
 
         Result result = savePost(studioPost);
 

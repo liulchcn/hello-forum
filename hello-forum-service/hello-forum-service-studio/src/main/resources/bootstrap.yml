@@ -17,6 +17,10 @@ spring:
       retries: 10
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
 
 feign:
   # 开启feign对hystrix熔断降级的支持

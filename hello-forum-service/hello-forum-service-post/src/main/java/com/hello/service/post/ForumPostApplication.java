@@ -1,12 +1,14 @@
 package com.hello.service.post;
 
 import com.baomidou.mybatisplus.autoconfigure.DdlApplicationRunner;
+import org.elasticsearch.common.inject.Singleton;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Scope;
 
 import java.util.HashSet;
 import java.util.List;

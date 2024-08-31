@@ -1,3 +1,0 @@
-com\hello\gateway\user\filter\AuthorizeFilter.class
-com\hello\gateway\user\util\UserJwtUtil.class
-com\hello\gateway\user\UserGatewayApplication.class

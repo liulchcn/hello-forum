@@ -9,7 +9,6 @@
     </parent>
     <groupId>com.hello</groupId>
     <artifactId>hello-forum-feign-api</artifactId>
-    <version>1.0-SNAPSHOT</version>
     <name>hello-forum-feign-api</name>
     <description>hello-forum-feign-api</description>
     <properties>

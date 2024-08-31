@@ -42,7 +42,6 @@ public class SyncPostListener {
                 log.error("Sync es error :{}",e);
 
             }
-
         }
     }
 }

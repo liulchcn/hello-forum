@@ -10,16 +10,17 @@ import com.hello.common.result.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.bouncycastle.openssl.PasswordException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
-
 @RestController
 @RequestMapping("/api/v1")
 @Slf4j
 public class UserController {
     @Autowired
     private UserService userService;
-
     @PostMapping ("/login")
+
     public Result<UserLoginVO> login(@ModelAttribute LoginDTO loginDTO) throws PasswordException {
         log.info("{}",loginDTO);
         UserLoginVO userVO = userService.login(loginDTO);

@@ -91,5 +91,5 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.projectlombok:lombok:1.18.24"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.springframework.cloud:spring-cloud-starter-bootstrap:4.0.4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: junit:junit:3.8.1"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="output" path="/out/production/hello-forum-gateway"/>
 </classpath>

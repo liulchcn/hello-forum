@@ -6,6 +6,7 @@
 		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
 		<excludeFolder url="file://$MODULE_DIR$/target"/>
 	</contentEntry>
+	<lib name="Maven: org.mongodb:bson-record-codec:4.9.1" scope="RUNTIME"/>
 	<lib name="Maven: org.projectlombok:lombok:1.18.24" scope="PROVIDED"/>
 	<lib name="Maven: junit:junit:3.8.1" scope="TEST"/>
 	<levels>
@@ -21,24 +22,30 @@
 		<level name="Maven: com.github.jsqlparser:jsqlparser:4.4" value="project"/>
 		<level name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.1.7" value="project"/>
 		<level name="Maven: org.springframework.boot:spring-boot:3.1.7" value="project"/>
-		<level name="Maven: org.springframework:spring-core:6.0.15" value="project"/>
-		<level name="Maven: org.springframework:spring-jcl:6.0.15" value="project"/>
-		<level name="Maven: org.springframework:spring-context:6.0.15" value="project"/>
-		<level name="Maven: org.springframework:spring-aop:6.0.15" value="project"/>
-		<level name="Maven: org.springframework:spring-expression:6.0.15" value="project"/>
 		<level name="Maven: org.springframework.boot:spring-boot-starter-jdbc:3.1.7" value="project"/>
 		<level name="Maven: org.springframework.boot:spring-boot-starter:3.1.7" value="project"/>
 		<level name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" value="project"/>
 		<level name="Maven: org.yaml:snakeyaml:1.33" value="project"/>
 		<level name="Maven: com.zaxxer:HikariCP:5.0.1" value="project"/>
 		<level name="Maven: org.springframework:spring-jdbc:6.0.15" value="project"/>
-		<level name="Maven: org.springframework:spring-beans:6.0.15" value="project"/>
-		<level name="Maven: org.springframework:spring-tx:6.0.15" value="project"/>
 		<level name="Maven: com.alibaba:fastjson:1.2.58" value="project"/>
+		<level name="Maven: org.apache.htrace:htrace-core4:4.2.0-incubating" value="project"/>
+		<level name="Maven: org.springframework.data:spring-data-mongodb:4.1.7" value="project"/>
+		<level name="Maven: org.springframework:spring-tx:6.0.15" value="project"/>
+		<level name="Maven: org.springframework:spring-context:6.0.15" value="project"/>
+		<level name="Maven: org.springframework:spring-aop:6.0.15" value="project"/>
+		<level name="Maven: org.springframework:spring-beans:6.0.15" value="project"/>
+		<level name="Maven: org.springframework:spring-core:6.0.15" value="project"/>
+		<level name="Maven: org.springframework:spring-jcl:6.0.15" value="project"/>
+		<level name="Maven: org.springframework:spring-expression:6.0.15" value="project"/>
+		<level name="Maven: org.springframework.data:spring-data-commons:3.1.7" value="project"/>
+		<level name="Maven: org.mongodb:mongodb-driver-core:4.9.1" value="project"/>
+		<level name="Maven: org.mongodb:bson:4.9.1" value="project"/>
+		<level name="Maven: org.mongodb:bson-record-codec:4.9.1" value="project"/>
+		<level name="Maven: org.slf4j:slf4j-api:2.0.9" value="project"/>
 		<level name="Maven: org.springframework.boot:spring-boot-starter-log4j2:3.1.7" value="project"/>
 		<level name="Maven: org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0" value="project"/>
 		<level name="Maven: org.apache.logging.log4j:log4j-api:2.20.0" value="project"/>
-		<level name="Maven: org.slf4j:slf4j-api:2.0.9" value="project"/>
 		<level name="Maven: org.apache.logging.log4j:log4j-core:2.20.0" value="project"/>
 		<level name="Maven: org.apache.logging.log4j:log4j-jul:2.20.0" value="project"/>
 		<level name="Maven: org.projectlombok:lombok:1.18.24" value="project"/>

@@ -1,5 +1,0 @@
-com\hello\fileStarter\config\MinIOConfigProperties.class
-com\hello\fileStarter\config\MinIOConfig.class
-com\hello\fileStarter\service\FileStorageService.class
-META-INF\spring-configuration-metadata.json
-com\hello\fileStarter\service\impl\MinIOFileStorageService.class

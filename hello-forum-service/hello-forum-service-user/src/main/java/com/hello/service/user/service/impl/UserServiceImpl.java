@@ -8,6 +8,7 @@ import com.hello.common.constants.MessageConstant;
 import com.hello.common.constants.RedisKeyConstant;
 import com.hello.common.exception.*;
 import com.hello.common.utils.UserJwtUtil;
+import com.hello.fileStarter.service.FileStorageService;
 import com.hello.model.user.constants.AccountStatusConstants;
 import com.hello.model.user.dtos.LoginDTO;
 import com.hello.model.user.dtos.UserRegisterDTO;
@@ -21,7 +22,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.redisson.api.RLock;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.dao.DuplicateKeyException;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -36,6 +40,8 @@ import org.springframework.util.DigestUtils;
 @RequiredArgsConstructor
 @Slf4j
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
+
+
     private final RedissonClient redissonClient;
     private final UserMapper userMapper;
 //    @Resource

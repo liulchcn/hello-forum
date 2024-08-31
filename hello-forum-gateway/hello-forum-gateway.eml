@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component LANGUAGE_LEVEL="JDK_17" inheritJdk="true">
+<component LANGUAGE_LEVEL="JDK_17" inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/../out/test/hello-forum-gateway"/>
 	<contentEntry url="file://$MODULE_DIR$"/>
 	<lib name="Maven: org.projectlombok:lombok:1.18.24" scope="PROVIDED"/>
 	<lib name="Maven: junit:junit:3.8.1" scope="TEST"/>

@@ -4,12 +4,18 @@
 	<contentEntry url="file://$MODULE_DIR$">
 		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
 		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
-		<testFolder url="file://$MODULE_DIR$/target/generated-test-sources/test-annotations"/>
 		<excludeFolder url="file://$MODULE_DIR$/target"/>
 	</contentEntry>
 	<lib name="Maven: org.projectlombok:lombok:1.18.24" scope="PROVIDED"/>
 	<lib name="Maven: junit:junit:3.8.1" scope="TEST"/>
 	<levels>
+		<level name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2" value="project"/>
+		<level name="Maven: jakarta.activation:jakarta.activation-api:2.1.2" value="project"/>
+		<level name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.2" value="project"/>
+		<level name="Maven: org.glassfish.jaxb:txw2:4.0.4" value="project"/>
+		<level name="Maven: com.sun.istack:istack-commons-runtime:4.1.2" value="project"/>
+		<level name="Maven: org.jvnet.staxex:stax-ex:2.1.0" value="project"/>
+		<level name="Maven: com.sun.xml.fastinfoset:FastInfoset:2.1.0" value="project"/>
 		<level name="Maven: org.springframework.cloud:spring-cloud-starter-gateway:4.0.7" value="project"/>
 		<level name="Maven: org.springframework.cloud:spring-cloud-starter:4.0.4" value="project"/>
 		<level name="Maven: org.springframework.boot:spring-boot-starter:3.1.7" value="project"/>

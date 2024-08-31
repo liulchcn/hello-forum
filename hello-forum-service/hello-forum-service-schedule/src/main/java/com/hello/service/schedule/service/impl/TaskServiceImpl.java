@@ -63,8 +63,6 @@ public class TaskServiceImpl implements TaskService {
 
     @Override
     public void cancelTask(Long taskId) {
-//        new TaskinfoLogs()
-
         Task task = updateDB(taskId, ScheduleConstants.CANCELLED);
         if (task!=null){
             removeTaskFromCache(task);

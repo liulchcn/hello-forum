@@ -11,11 +11,11 @@
   <url>http://maven.apache.org</url>
 
   <modules>
+    <module>hello-forum-basic</module>
     <module>hello-forum-gateway</module>
     <module>hello-forum-model</module>
     <module>hello-forum-service</module>
     <module>hello-forum-common</module>
-    <module>hello-forum-basic</module>
   </modules>
 
   <properties>

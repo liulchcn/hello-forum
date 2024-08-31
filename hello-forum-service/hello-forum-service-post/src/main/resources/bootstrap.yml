@@ -11,3 +11,6 @@ spring:
       config:
         server-addr: 192.168.200.128
         file-extension: yml
+bloomfilter:
+  expectedInsertions: 10000
+  falsePositiveProbability: 0.01

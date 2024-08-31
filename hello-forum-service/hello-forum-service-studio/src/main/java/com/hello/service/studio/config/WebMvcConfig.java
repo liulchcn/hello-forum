@@ -1,6 +1,7 @@
 package com.hello.service.studio.config;
 
 import com.hello.service.studio.interceptor.StudioTokenInterceptor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

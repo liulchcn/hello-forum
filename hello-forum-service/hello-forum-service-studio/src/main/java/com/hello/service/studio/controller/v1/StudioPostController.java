@@ -16,7 +16,6 @@ public class StudioPostController {
     private StudioPostService studioPostService;
 
     @PostMapping( "/submit")
-    @RepeatSubmit
     public Result submitPost(@ModelAttribute StudioPostDTO studioPostDTO){
         log.info("上传帖子:{}",studioPostDTO);
 //        studioPostService.submit(studioPostDTO);

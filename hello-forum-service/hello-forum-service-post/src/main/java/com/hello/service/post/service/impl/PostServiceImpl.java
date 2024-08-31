@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hello.common.constants.HotPostConstants;
 import com.hello.common.constants.SearchPostConstants;
+import com.hello.common.context.UserThreadLocalUtil;
 import com.hello.common.exception.SubmitPostsException;
 import com.hello.common.result.Result;
 import com.hello.model.enums.AppHttpCodeEnum;
@@ -21,6 +22,7 @@ import com.hello.service.post.constants.PostConstants;
 import com.hello.service.post.mapper.PostConfigMapper;
 import com.hello.service.post.mapper.PostContentMapper;
 import com.hello.service.post.mapper.PostMapper;
+import com.hello.service.post.service.ArticleBloomFilterService;
 import com.hello.service.post.service.PostService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
@@ -50,6 +52,8 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
     private KafkaTemplate<String ,String> kafkaTemplate;
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
+    private ArticleBloomFilterService articleBloomFilterService;
+
 
     @Override
     public Result savePost(PostDTO postDTO) {
@@ -98,6 +102,12 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
         replaceDataToRedis(post, score, HOT_POST_FIRST_PAGE_TOPIC+post.getChannelId());
     }
 
+    /**
+     *
+     * 加载首页
+     * @param postLoadDTO
+     * @return
+     */
     @Override
     public List<HotPostVO> loadHomePage(PostLoadDTO postLoadDTO) {
         String key = HOT_POST_FIRST_PAGE_TOPIC;
@@ -107,9 +117,18 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
             key= HOT_POST_FIRST_PAGE_TOPIC + postLoadDTO.getChannelId();
         }
         String jsonStr = stringRedisTemplate.opsForValue().get(key);
+
         if(jsonStr!=null){
             List<HotPostVO> hotPostVOS = JSON.parseArray(jsonStr, HotPostVO.class);
-            return hotPostVOS;
+            for (HotPostVO hotPostVO : hotPostVOS) {
+                if(articleBloomFilterService.isArticleRead(Long.valueOf(UserThreadLocalUtil.getCurrentId()),
+                        hotPostVO.getId())){
+                    hotPostVOS.remove(hotPostVO);
+                }
+            }
+            if(hotPostVOS==null || hotPostVOS.size()==0){
+                return hotPostVOS;
+            }
         }
         return load(key,postLoadDTO);
     }

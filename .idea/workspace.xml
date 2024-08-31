@@ -5,9 +5,155 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bc7bae4-198d-4d79-af94-d9b4c9b157ab" name="Changes" comment="对于文章提交实现了一个简单的AOP，防止快速重复提交而造成问题。">
+      <change afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/java/com/hello/fileStarter/vedio/constants/UploadPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/java/com/hello/fileStarter/vedio/constants/VedioConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/java/com/hello/idempotent/AopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/java/com/hello/idempotent/annoation/Idempotent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/java/com/hello/idempotent/aspect/IdempotentAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/java/com/hello/idempotent/enums/IdempotentSceneEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/java/com/hello/idempotent/enums/IdempotentTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/java/com/hello/idempotent/handler/AbstractIdempotentExecuteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/java/com/hello/idempotent/handler/IdempotentContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/java/com/hello/idempotent/handler/IdempotentExecuteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/java/com/hello/idempotent/handler/IdempotentExecuteHandlerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/java/com/hello/idempotent/handler/IdempotentParamWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-model/src/main/java/com/hello/model/studio/dtos/UploadPartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-model/src/main/java/com/hello/model/studio/dtos/UploadVideoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-model/src/main/java/com/hello/model/studio/pojos/StudioVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/java/com/hello/service/post/service/ArticleBloomFilterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/handler/AuitHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/handler/scanHandler/ImagesScanHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/handler/scanHandler/TextScanHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/mapper/StudioVideoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/service/CustomMultipartFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/test/java/VideoUploadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-search/src/test/java/com/hello/search/HelloForumSearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-search/src/test/java/com/hello/search/HelloForumSearchApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/java/com/hello/fileStarter/config/MinIOConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/java/com/hello/fileStarter/config/MinIOConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/java/com/hello/fileStarter/service/FileStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/java/com/hello/fileStarter/service/FileStorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/java/com/hello/fileStarter/service/impl/MinIOFileStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/java/com/hello/fileStarter/service/impl/MinIOFileStorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/target/classes/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/target/classes/com/hello/fileStarter/config/MinIOConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/target/classes/com/hello/fileStarter/config/MinIOConfigProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/target/classes/com/hello/fileStarter/service/FileStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/target/classes/com/hello/fileStarter/service/impl/MinIOFileStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-basic/hello-forum-idempotent/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-basic/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/constants/UploadFileConstans.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/constants/UploadFileConstans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/context/UserThreadLocalUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/context/UserThreadLocalUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-common/target/classes/com/hello/common/constants/UploadFileConstans.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-common/target/classes/com/hello/common/constants/UploadFileConstans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-common/target/classes/com/hello/common/context/UserThreadLocalUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-common/target/classes/com/hello/common/context/UserThreadLocalUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-feign-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-feign-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-feign-api/target/hello-forum-feign-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-feign-api/target/hello-forum-feign-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-feign-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-feign-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-gateway/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/hello-forum-gateway-user.eml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/hello-forum-gateway-user.eml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway.eml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway.eml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/target/classes/com/hello/gateway/user/UserGatewayApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/target/classes/com/hello/gateway/user/filter/AuthorizeFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/target/classes/com/hello/gateway/user/util/UserJwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-model/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-model/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-model/hello-forum-model.eml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-model/hello-forum-model.eml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/java/com/hello/service/post/ForumPostApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/java/com/hello/service/post/ForumPostApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/java/com/hello/service/post/controller/v1/PostLoadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/java/com/hello/service/post/controller/v1/PostLoadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/java/com/hello/service/post/interceptor/PostTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/java/com/hello/service/post/interceptor/PostTokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/java/com/hello/service/post/service/impl/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/java/com/hello/service/post/service/impl/PostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/ForumPostApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/config/KafkaStreamConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/config/RedissonConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/constants/PostConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/controller/v1/PostLoadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/feign/PostClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/interceptor/PostTokenInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/listener/HotPostIncrHandlerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/listener/PostIsDownListenner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/mapper/PostConfigMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/mapper/PostContentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/mapper/PostMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/service/PostConfigService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/service/PostService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/service/impl/PostConfigServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/service/impl/PostServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/stream/HotPostStreamHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/stream/HotPostStreamHandler$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/stream/HotPostStreamHandler$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/com/hello/service/post/stream/HotPostStreamHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/target/classes/mapper/PostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/src/main/java/com/hello/service/schedule/config/RedissonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/src/main/java/com/hello/service/schedule/config/RedissonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/src/main/java/com/hello/service/schedule/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/src/main/java/com/hello/service/schedule/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/target/classes/com/hello/service/schedule/ScheduleApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/target/classes/com/hello/service/schedule/config/RedissonConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/target/classes/com/hello/service/schedule/controller/ScheduleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/target/classes/com/hello/service/schedule/feign/ScheduleClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/target/classes/com/hello/service/schedule/mapper/TaskinfoLogsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/target/classes/com/hello/service/schedule/mapper/TaskinfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/target/classes/com/hello/service/schedule/service/TaskService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/target/classes/com/hello/service/schedule/service/impl/TaskServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-schedule/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-search/src/main/java/com/hello/search/listener/SyncPostListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-search/src/main/java/com/hello/search/listener/SyncPostListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/ForumStudioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/ForumStudioApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/config/MinioCofing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/controller/v1/StudioMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/controller/v1/StudioMaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/controller/v1/StudioPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/controller/v1/StudioPostController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/idempotent/aspect/RepeatSubmitApect.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/idempotent/aspect/RepeatSubmitApect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/service/StudioMaterialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/service/StudioMaterialService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/service/impl/StudioMaterialServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/service/impl/StudioMaterialServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/service/impl/StudioPostScanServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java/com/hello/service/studio/service/impl/StudioPostScanServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/ForumStudioApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/ForumStudioApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/config/MinioCofing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/config/WebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/controller/v1/StudioMaterialController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/controller/v1/StudioMaterialController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/controller/v1/StudioPostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/controller/v1/StudioPostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/idempotent/aspect/RepeatSubmitApect.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/idempotent/aspect/RepeatSubmitApect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/service/StudioMaterialService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/service/StudioMaterialService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/service/impl/StudioMaterialServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/service/impl/StudioMaterialServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/service/impl/StudioPostScanServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/target/classes/com/hello/service/studio/service/impl/StudioPostScanServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/hello-forum-service-user.eml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/hello-forum-service-user.eml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java/com/hello/service/user/controller/v1/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java/com/hello/service/user/controller/v1/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java/com/hello/service/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java/com/hello/service/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/UserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/config/RedissonConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/controller/v1/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/interceptor/UserTokenInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service.eml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service.eml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum.eml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum.eml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum.userlibraries" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum.userlibraries" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +167,7 @@
         <option value="spring-beans.schema" />
         <option value="Mapper" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -78,94 +225,104 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "JUnit.ApArticleTest.executor": "Debug",
-    "JUnit.ApArticleTest.init.executor": "Debug",
-    "JUnit.HelloForumServiceScheduleApplicationTests.contextLoads.executor": "Run",
-    "JUnit.RedisTest.executor": "Debug",
-    "JUnit.RedisTest.testList.executor": "Debug",
-    "Maven.hello-forum [clean].executor": "Run",
-    "Maven.hello-forum [compile].executor": "Run",
-    "Maven.hello-forum [install].executor": "Run",
-    "Maven.hello-forum [test].executor": "Run",
-    "Maven.hello-forum [validate].executor": "Run",
-    "Maven.hello-forum-common [clean].executor": "Run",
-    "Maven.hello-forum-common [compile].executor": "Run",
-    "Maven.hello-forum-feign-api [install].executor": "Run",
-    "Maven.hello-forum-feign-api [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor": "Run",
-    "Maven.hello-forum-model [clean].executor": "Run",
-    "Maven.hello-forum-model [deploy].executor": "Run",
-    "Maven.hello-forum-model [install].executor": "Run",
-    "Maven.hello-forum-service [compile].executor": "Run",
-    "Maven.hello-forum-test [clean].executor": "Run",
-    "Maven.hello-forum-test [compile].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.EsInitApplication.executor": "Debug",
-    "Spring Boot.ForumCommentApplication.executor": "Debug",
-    "Spring Boot.ForumPostApplication.executor": "Debug",
-    "Spring Boot.ForumScheduleApplication.executor": "Run",
-    "Spring Boot.ForumStudioApplication.executor": "Debug",
-    "Spring Boot.HelloForumBehaviorApplication.executor": "Debug",
-    "Spring Boot.HelloForumSearchApplication.executor": "Debug",
-    "Spring Boot.HelloForumServiceScheduleApplication.executor": "Debug",
-    "Spring Boot.PostApplication.executor": "Run",
-    "Spring Boot.ScheduleApplication.executor": "Debug",
-    "Spring Boot.SearchApplication.executor": "Debug",
-    "Spring Boot.StudioServiceApplication.executor": "Debug",
-    "Spring Boot.UserApplication (1).executor": "Debug",
-    "Spring Boot.UserApplication.executor": "Debug",
-    "Spring Boot.UserGatewayApplication (2).executor": "Debug",
-    "Spring Boot.UserGatewayApplication.executor": "Debug",
-    "Spring Boot.XxlJobApplication.executor": "Debug",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/idea-project/hello-forum",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "spring.configuration.checksum": "ae85fa6c82882d17d159809f0d251249",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;JUnit.ApArticleTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ApArticleTest.init.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.HelloForumServiceScheduleApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedisTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.RedisTest.testList.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.VideoUploadTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VideoUploadTest.testChunkedUpload.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-basic [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-basic [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-basic [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-common [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-common [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-feign-api [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-feign-api [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-model [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-model [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-model [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-service-studio [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-service-studio [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-service-studio [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-test [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-forum-test [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EsInitApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ForumCommentApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ForumPostApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ForumScheduleApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ForumStudioApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.HelloForumBehaviorApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.HelloForumSearchApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.HelloForumServiceScheduleApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.PostApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ScheduleApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SearchApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.StudioServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.UserApplication (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.UserApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.UserGatewayApplication (2).executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.UserGatewayApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.XxlJobApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/idea-project/hello-forum/hello-forum-basic/hello-forum-file-starter/src/main/java/com/hello/fileStarter&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ae85fa6c82882d17d159809f0d251249&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;repository&quot;
     ],
-    "DatabaseDriversLRU": [
-      "redis",
-      "mysql",
-      "mongo"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redis&quot;,
+      &quot;mysql&quot;,
+      &quot;mongo&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-project\hello-forum\hello-forum-basic\hello-forum-file-starter\src\main\java\com\hello\fileStarter" />
       <recent name="E:\idea-project\hello-forum\hello-forum-model\src\main\java\com\hello\model\comment" />
       <recent name="E:\idea-project\hello-forum\hello-forum-test" />
       <recent name="E:\idea-project\hello-forum\hello-forum-service\hello-forum-service-behavior\src\main\java\com\hello\behavior" />
       <recent name="E:\idea-project\hello-forum\hello-forum-service\hello-forum-service-search\src\main\java\com\hello\search" />
-      <recent name="E:\idea-project\hello-forum\hello-forum-service\hello-forum-search\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\idea-project\hello-forum\hello-forum-basic\hello-forum-file-starter\src\main\java\com\hello\fileStarter\config\service" />
@@ -193,7 +350,35 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="JUnit.VideoUploadTest">
+    <configuration name="VideoUploadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-forum-service-studio" />
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VideoUploadTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoUploadTest.testChunkedUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-forum-service-studio" />
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VideoUploadTest" />
+      <option name="METHOD_NAME" value="testChunkedUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BehaviorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hello-forum-service-behavior" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hello.behavior.BehaviorApplication" />
@@ -211,19 +396,6 @@
     <configuration name="ForumCommentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hello-forum-service-comment" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hello.service.comment.ForumCommentApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForumPostApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="hello-forum-service-post" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hello.service.post.ForumPostApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hello.service.post.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -289,6 +461,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.VideoUploadTest" />
+      <item itemvalue="JUnit.VideoUploadTest.testChunkedUpload" />
       <item itemvalue="Spring Boot.EsInitApplication" />
       <item itemvalue="Spring Boot.HelloForumIdempotentApplication" />
       <item itemvalue="Spring Boot.BehaviorApplication" />
@@ -297,15 +471,15 @@
       <item itemvalue="Spring Boot.ScheduleApplication" />
       <item itemvalue="Spring Boot.ForumStudioApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
-      <item itemvalue="Spring Boot.ForumPostApplication" />
       <item itemvalue="Spring Boot.UserGatewayApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VideoUploadTest" />
         <item itemvalue="Spring Boot.ForumStudioApplication" />
+        <item itemvalue="JUnit.VideoUploadTest.testChunkedUpload" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.UserGatewayApplication" />
-        <item itemvalue="Spring Boot.ForumPostApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +579,18 @@
       <workItem from="1723099233132" duration="1147000" />
       <workItem from="1723100393472" duration="13000" />
       <workItem from="1723100434168" duration="839000" />
-      <workItem from="1723101316052" duration="90000" />
+      <workItem from="1723101316052" duration="1094000" />
+      <workItem from="1723115528229" duration="3307000" />
+      <workItem from="1723181554816" duration="1510000" />
+      <workItem from="1723199709160" duration="63000" />
+      <workItem from="1723205971737" duration="3016000" />
+      <workItem from="1723683415213" duration="7595000" />
+      <workItem from="1723793597378" duration="798000" />
+      <workItem from="1723799217038" duration="5473000" />
+      <workItem from="1724132850041" duration="3186000" />
+      <workItem from="1724461226825" duration="46620000" />
+      <workItem from="1724908613243" duration="41119000" />
+      <workItem from="1725064220250" duration="3534000" />
     </task>
     <task id="LOCAL-00001" summary="用户端 登录功能 完成">
       <option name="closed" value="true" />
